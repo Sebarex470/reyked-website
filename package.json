@@ -1,0 +1,8 @@
+{
+  "name": "reyked-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio REYKED con pagos Mercado Pago (Checkout Pro)",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

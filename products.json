@@ -1,0 +1,122 @@
+[
+  {
+    "code": "RK-01",
+    "id": "kit-ht",
+    "cat": "aseo",
+    "name": "Kit Higiene Total",
+    "desc": "Detergente, desengrasante, Clean4+ y accesorios para oficinas y negocios.",
+    "price": 54990
+  },
+  {
+    "code": "RK-02",
+    "id": "det-5l",
+    "cat": "aseo",
+    "name": "Detergente profesional 5 L",
+    "desc": "Multiuso de alto rendimiento para superficies y pisos.",
+    "price": 8990
+  },
+  {
+    "code": "RK-03",
+    "id": "des-5l",
+    "cat": "aseo",
+    "name": "Desengrasante industrial 5 L",
+    "desc": "Para cocinas, talleres y maquinaria.",
+    "price": 11990
+  },
+  {
+    "code": "RK-04",
+    "id": "clean4",
+    "cat": "aseo",
+    "name": "Clean4+ Amonio cuaternario",
+    "desc": "Desinfectante concentrado de amplio espectro.",
+    "price": 14990
+  },
+  {
+    "code": "RK-05",
+    "id": "cono",
+    "cat": "seguridad",
+    "name": "Cono de tráfico 70 cm",
+    "desc": "Con banda reflectante, alta visibilidad.",
+    "price": 9990
+  },
+  {
+    "code": "RK-06",
+    "id": "barrera",
+    "cat": "seguridad",
+    "name": "Barrera extensible",
+    "desc": "Control de acceso y filas, cinta retráctil.",
+    "price": 39990
+  },
+  {
+    "code": "RK-07",
+    "id": "cinta",
+    "cat": "seguridad",
+    "name": "Cinta de peligro 100 m",
+    "desc": "Demarcación de áreas de riesgo.",
+    "price": 3990
+  },
+  {
+    "code": "RK-08",
+    "id": "espejo",
+    "cat": "seguridad",
+    "name": "Espejo panorámico",
+    "desc": "Visibilidad en cruces y estacionamientos.",
+    "price": 29990
+  },
+  {
+    "code": "RK-09",
+    "id": "lomo",
+    "cat": "seguridad",
+    "name": "Lomo de toro / tope",
+    "desc": "Reductor de velocidad de alta resistencia.",
+    "price": 24990
+  },
+  {
+    "code": "RK-10",
+    "id": "transpaleta",
+    "cat": "logistica",
+    "name": "Transpaleta manual 2.5 t",
+    "desc": "Traslado de pallets en bodegas.",
+    "price": 229990
+  },
+  {
+    "code": "RK-11",
+    "id": "apiladora",
+    "cat": "logistica",
+    "name": "Apiladora manual",
+    "desc": "Elevación y apilado de carga.",
+    "price": 549990
+  },
+  {
+    "code": "RK-12",
+    "id": "escalera",
+    "cat": "logistica",
+    "name": "Escalera industrial",
+    "desc": "Estructura reforzada para uso intensivo.",
+    "price": 119990
+  },
+  {
+    "code": "RK-13",
+    "id": "goma",
+    "cat": "pisos",
+    "name": "Piso de goma (m²)",
+    "desc": "Antideslizante, ideal para zonas de trabajo.",
+    "price": 18990
+  },
+  {
+    "code": "RK-14",
+    "id": "gym",
+    "cat": "pisos",
+    "name": "Piso para gimnasio (m²)",
+    "desc": "Amortiguación y alta durabilidad.",
+    "price": 21990
+  },
+  {
+    "code": "RK-15",
+    "id": "wet",
+    "cat": "pisos",
+    "name": "Limpiapiés alto tráfico Wet",
+    "desc": "Retiene humedad y suciedad en accesos.",
+    "price": 34990
+  }
+]

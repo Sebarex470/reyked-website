@@ -2,10 +2,6 @@
 /* ===== Configuración ===== */
 const CONFIG = {
   whatsapp: '56956474595',
-  // Pagos: este prototipo SIMULA el cobro. Para cobrar de verdad, define un
-  // backend que cree la preferencia/transacción y pon aquí su URL.
-  // El backend debe responder { url } para redirigir al checkout del proveedor.
-  paymentEndpoint: null, // p.ej. '/api/pagos/crear'
   defaultBudget: 500000
 };
 
@@ -17,24 +13,8 @@ const CATEGORIES = [
   { id: 'pisos', name: 'Pisos y Revestimientos' }
 ];
 
-// Precios referenciales de ejemplo: reemplazar por los reales de la clienta.
-const PRODUCTS = [
-  { id: 'kit-ht', cat: 'aseo', icon: '🧴', name: 'Kit Higiene Total', desc: 'Detergente, desengrasante, Clean4+ y accesorios para oficinas y negocios.', price: 54990 },
-  { id: 'det-5l', cat: 'aseo', icon: '🪣', name: 'Detergente profesional 5 L', desc: 'Multiuso de alto rendimiento para superficies y pisos.', price: 8990 },
-  { id: 'des-5l', cat: 'aseo', icon: '🧽', name: 'Desengrasante industrial 5 L', desc: 'Para cocinas, talleres y maquinaria.', price: 11990 },
-  { id: 'clean4', cat: 'aseo', icon: '🧪', name: 'Clean4+ Amonio cuaternario', desc: 'Desinfectante concentrado de amplio espectro.', price: 14990 },
-  { id: 'cono', cat: 'seguridad', icon: '🚧', name: 'Cono de tráfico 70 cm', desc: 'Con banda reflectante, alta visibilidad.', price: 9990 },
-  { id: 'barrera', cat: 'seguridad', icon: '⛓️', name: 'Barrera extensible', desc: 'Control de acceso y filas, cinta retráctil.', price: 39990 },
-  { id: 'cinta', cat: 'seguridad', icon: '⚠️', name: 'Cinta de peligro 100 m', desc: 'Demarcación de áreas de riesgo.', price: 3990 },
-  { id: 'espejo', cat: 'seguridad', icon: '🔍', name: 'Espejo panorámico', desc: 'Visibilidad en cruces y estacionamientos.', price: 29990 },
-  { id: 'lomo', cat: 'seguridad', icon: '🛑', name: 'Lomo de toro / tope', desc: 'Reductor de velocidad de alta resistencia.', price: 24990 },
-  { id: 'transpaleta', cat: 'logistica', icon: '📦', name: 'Transpaleta manual 2.5 t', desc: 'Traslado de pallets en bodegas.', price: 229990 },
-  { id: 'apiladora', cat: 'logistica', icon: '🏗️', name: 'Apiladora manual', desc: 'Elevación y apilado de carga.', price: 549990 },
-  { id: 'escalera', cat: 'logistica', icon: '🪜', name: 'Escalera industrial', desc: 'Estructura reforzada para uso intensivo.', price: 119990 },
-  { id: 'goma', cat: 'pisos', icon: '⬛', name: 'Piso de goma (m²)', desc: 'Antideslizante, ideal para zonas de trabajo.', price: 18990 },
-  { id: 'gym', cat: 'pisos', icon: '🏋️', name: 'Piso para gimnasio (m²)', desc: 'Amortiguación y alta durabilidad.', price: 21990 },
-  { id: 'wet', cat: 'pisos', icon: '🚪', name: 'Limpiapiés alto tráfico Wet', desc: 'Retiene humedad y suciedad en accesos.', price: 34990 }
-];
+// El catálogo (y sus precios) vive en products.json; el servidor lo usa para cobrar.
+let PRODUCTS = [];
 
 /* ===== Utilidades ===== */
 const $ = (s, el = document) => el.querySelector(s);
@@ -66,12 +46,12 @@ function renderProducts() {
   const list = PRODUCTS.filter(p => activeCat === 'all' || p.cat === activeCat);
   $('#products').innerHTML = list.map(p => `
     <article class="prod">
-      <div class="ph" aria-hidden="true">${p.icon}</div>
+      <div class="ph" aria-hidden="true">${p.code}</div>
       <div class="b">
         <span class="tag">${CATEGORIES.find(c => c.id === p.cat).name}</span>
         <h3>${esc(p.name)}</h3><p>${esc(p.desc)}</p>
         <div class="foot"><span class="price">${clp(p.price)}</span>
-        <button class="btn btn-primary" data-add="${p.id}">Agregar</button></div>
+        <button class="linkbtn" data-add="${p.id}">agregar</button></div>
       </div>
     </article>`).join('');
 }
@@ -89,7 +69,7 @@ function renderCart() {
   $('#cartCount').textContent = cart.reduce((s, i) => s + i.qty, 0);
   $('#cartSubtotal').textContent = clp(cartTotal());
   $('#cartItems').innerHTML = cart.length ? cart.map(i => { const p = byId(i.id); return `
-    <div class="line"><div class="th">${p.icon}</div>
+    <div class="line"><div class="th">${p.code}</div>
       <div><h4>${esc(p.name)}</h4><small>${clp(p.price)} c/u</small>
         <div class="qty"><button data-dec="${p.id}" aria-label="Menos">−</button><span>${i.qty}</span><button data-inc="${p.id}" aria-label="Más">+</button>
         <button class="rm" data-rm="${p.id}">Quitar</button></div></div>
@@ -122,10 +102,8 @@ function closeAll(keepFocus) {
 
 /* ===== Checkout ===== */
 const PAY_NOTES = {
-  tarjeta: 'Los datos de tarjeta se validan en tu dispositivo y no se guardan. En producción los procesa el proveedor de pagos.',
-  mercadopago: 'Serás redirigido a Mercado Pago para completar el pago.',
-  webpay: 'Serás redirigido a Webpay Plus para pagar con tarjetas bancarias chilenas.',
-  transferencia: 'Te enviaremos los datos bancarios; el pedido se despacha al confirmar la transferencia.'
+  mercadopago: 'Serás redirigido a Mercado Pago para pagar de forma segura. Nosotros no vemos ni guardamos los datos de tu tarjeta.',
+  transferencia: 'Registraremos tu pedido y te enviaremos los datos bancarios; se despacha al confirmar la transferencia.'
 };
 function renderSummary() {
   const f = $('#checkoutForm');
@@ -138,25 +116,7 @@ function renderSummary() {
   $('#payBtn').textContent = 'Pagar ' + clp(sub);
 }
 function syncPayUI() {
-  const m = $('#checkoutForm').pago.value;
-  $('#cardFields').hidden = m !== 'tarjeta';
-  $('#payNote').textContent = PAY_NOTES[m];
-}
-function luhn(num) {
-  let sum = 0, alt = false;
-  for (let i = num.length - 1; i >= 0; i--) {
-    let n = +num[i]; if (alt) { n *= 2; if (n > 9) n -= 9; } sum += n; alt = !alt;
-  }
-  return sum % 10 === 0;
-}
-function validCard(f) {
-  const num = f.cardnum.value.replace(/\s/g, '');
-  if (!/^\d{13,19}$/.test(num) || !luhn(num)) return 'Número de tarjeta inválido.';
-  const m = f.cardexp.value.match(/^(\d{2})\/(\d{2})$/);
-  if (!m || +m[1] < 1 || +m[1] > 12) return 'Fecha de vencimiento inválida (MM/AA).';
-  if (new Date(2000 + +m[2], +m[1], 1) <= new Date()) return 'La tarjeta está vencida.';
-  if (!/^\d{3,4}$/.test(f.cardcvv.value)) return 'CVV inválido.';
-  return '';
+  $('#payNote').textContent = PAY_NOTES[$('#checkoutForm').pago.value];
 }
 async function submitCheckout(e) {
   e.preventDefault();
@@ -164,44 +124,62 @@ async function submitCheckout(e) {
   if (!cart.length) { err.textContent = 'Tu carrito está vacío.'; return; }
   if (!f.checkValidity()) { f.reportValidity(); return; }
   const metodo = f.pago.value;
-  if (metodo === 'tarjeta') { const m = validCard(f); if (m) { err.textContent = m; return; } }
-
-  const order = {
-    id: 'RK-' + Date.now().toString(36).toUpperCase(),
-    fecha: new Date().toISOString(),
-    items: cart.map(i => ({ id: i.id, name: byId(i.id).name, qty: i.qty, price: byId(i.id).price })),
-    total: cartTotal(), metodo, entrega: f.entrega.value,
-    cliente: { nombre: f.nombre.value, email: f.email.value, tel: f.tel.value, dir: f.dir.value },
-    estado: metodo === 'transferencia' ? 'Pendiente de transferencia' : (CONFIG.paymentEndpoint ? 'Pendiente de pago' : 'Pagado (simulado)')
-  };
   const btn = $('#payBtn'); btn.disabled = true; btn.textContent = 'Procesando…';
   try {
-    if (CONFIG.paymentEndpoint && metodo !== 'transferencia') {
-      // Nunca se envían datos de tarjeta: el backend crea la sesión de pago del proveedor.
-      const r = await fetch(CONFIG.paymentEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ metodo, orden: order }) });
-      if (!r.ok) throw new Error('El servidor de pagos no respondió.');
-      const { url } = await r.json();
-      orders.unshift(order); store.set('reyked_orders', orders);
-      cart = []; saveCart();
-      if (url) { location.href = url; return; }
-    } else {
-      await new Promise(r => setTimeout(r, 800)); // simulación
-      orders.unshift(order); store.set('reyked_orders', orders);
-      cart = []; saveCart();
-    }
-    f.reset(); closeAll(true);
-    toast(`Pedido ${order.id} registrado`);
+    // Solo se envían ids y cantidades: el servidor calcula el total con sus propios precios.
+    const r = await fetch('/api/pagos/crear', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        metodo, entrega: f.entrega.value,
+        items: cart.map(i => ({ id: i.id, qty: i.qty })),
+        cliente: { nombre: f.nombre.value, email: f.email.value, tel: f.tel.value, dir: f.dir.value }
+      })
+    });
+    const data = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(data.error || 'No se pudo procesar el pedido.');
+    orders.unshift({
+      id: data.pedido, fecha: new Date().toISOString(), metodo, entrega: f.entrega.value,
+      items: cart.map(i => ({ id: i.id, name: byId(i.id).name, qty: i.qty, price: byId(i.id).price })),
+      total: cartTotal(), cliente: { dir: f.dir.value },
+      estado: metodo === 'transferencia' ? 'Pendiente de transferencia' : 'Pendiente de pago'
+    });
+    store.set('reyked_orders', orders);
+    if (data.url) { location.href = data.url; return; } // Mercado Pago; el carrito se limpia al volver
+    cart = []; saveCart(); f.reset(); closeAll(true);
+    toast(`Pedido ${data.pedido} registrado`);
     openAccount('pedidos');
   } catch (ex) {
-    err.textContent = ex.message || 'No se pudo procesar el pago.';
+    err.textContent = ex.message === 'Failed to fetch' ? 'Sin conexión con el servidor de pagos.' : ex.message;
   } finally { btn.disabled = false; renderSummary(); }
+}
+
+/* Regreso desde Mercado Pago: ?pago=ok|pending|failure&pedido=RK-XXXXXXXXXX */
+async function handleReturn() {
+  const q = new URLSearchParams(location.search), id = q.get('pedido'), res = q.get('pago');
+  if (!id || !res) return;
+  history.replaceState(null, '', location.pathname);
+  if (res !== 'failure') { cart = []; saveCart(); }
+  const sync = async tries => {
+    try {
+      const r = await fetch('/api/pedidos/' + encodeURIComponent(id));
+      if (!r.ok) return;
+      const { estado } = await r.json();
+      const o = orders.find(x => x.id === id);
+      if (o) { o.estado = estado; store.set('reyked_orders', orders); }
+      if (res === 'ok' && estado === 'Pendiente de pago' && tries > 0) { setTimeout(() => sync(tries - 1), 3000); }
+      else if ($('#accountModal').hidden === false) renderAccount();
+    } catch { /* se reintenta al volver */ }
+  };
+  await sync(5);
+  toast(res === 'failure' ? 'El pago no se completó' : 'Gracias, recibimos tu pedido');
+  openAccount('pedidos');
 }
 
 /* ===== Mi cuenta ===== */
 let tab = 'pedidos';
 const monthKey = d => d.slice(0, 7);
 const monthName = k => new Date(k + '-15').toLocaleDateString('es-CL', { month: 'short' });
-const paidOrders = () => orders.filter(o => !/^Pendiente/.test(o.estado));
+const paidOrders = () => orders.filter(o => o.estado === 'Pagado');
 
 function openAccount(t) { tab = t || tab; openPanel($('#accountModal')); renderAccount(); }
 function renderAccount() {
@@ -217,7 +195,7 @@ function renderAccount() {
       <div class="order"><div class="row"><strong>${esc(o.id)}</strong><span class="st">${esc(o.estado)}</span></div>
       <small>${new Date(o.fecha).toLocaleString('es-CL')} · ${esc(o.metodo)}</small>
       <ul>${o.items.map(i => `<li>${i.qty} × ${esc(i.name)}</li>`).join('')}</ul>
-      <div class="row"><span>${esc(o.cliente.dir)}</span><strong>${clp(o.total)}</strong></div></div>`).join('')
+      <div class="row"><span>${esc(o.cliente?.dir || '')}</span><strong>${clp(o.total)}</strong></div></div>`).join('')
       : '<p class="empty">Aún no tienes pedidos. ¡Agrega productos al carrito!</p>';
   } else if (tab === 'gastos') {
     const by = {}; paid.forEach(o => by[monthKey(o.fecha)] = (by[monthKey(o.fecha)] || 0) + o.total);
@@ -234,17 +212,17 @@ function renderAccount() {
     const left = settings.budget - month;
     body.innerHTML = `<label class="form">Presupuesto mensual (CLP)
       <input type="number" id="budgetIn" min="0" step="10000" value="${settings.budget}"></label>
-      <div class="meter" role="progressbar" aria-valuenow="${Math.min(100, Math.round(pct))}" aria-valuemin="0" aria-valuemax="100"><i class="${pct > 100 ? 'over' : pct > 80 ? 'warn' : ''}" style="width:${Math.min(100, pct)}%"></i></div>
+      <div class="meter" role="progressbar" aria-valuenow="${Math.min(100, Math.round(pct))}" aria-valuemin="0" aria-valuemax="100"><i class="${pct > 100 ? 'over' : ''}" style="width:${Math.min(100, pct)}%"></i></div>
       <div class="kpis"><div class="kpi"><small>Gastado este mes</small><strong>${clp(month)}</strong></div>
       <div class="kpi"><small>${left >= 0 ? 'Disponible' : 'Excedido'}</small><strong>${clp(Math.abs(left))}</strong></div>
       <div class="kpi"><small>Uso</small><strong>${Math.round(pct)}%</strong></div></div>`;
     $('#budgetIn').addEventListener('change', e => { settings.budget = Math.max(0, +e.target.value || 0); store.set('reyked_settings', settings); renderAccount(); });
   } else {
     const gain = total * settings.margin / 100;
-    body.innerHTML = `<p class="lead">Estimación de ganancia si revendes lo comprado con un margen sobre el costo.</p>
+    body.innerHTML = `<p>Estimación de ganancia si revendes lo comprado con un margen sobre el costo.</p>
       <label class="form">Margen de reventa (%)
       <input type="number" id="marginIn" min="0" max="500" step="1" value="${settings.margin}"></label>
-      <div class="kpis" style="margin-top:1rem"><div class="kpi"><small>Inversión (compras)</small><strong>${clp(total)}</strong></div>
+      <div class="kpis"><div class="kpi"><small>Inversión (compras)</small><strong>${clp(total)}</strong></div>
       <div class="kpi"><small>Ganancia estimada</small><strong>${clp(gain)}</strong></div>
       <div class="kpi"><small>Ingreso por ventas</small><strong>${clp(total + gain)}</strong></div>
       <div class="kpi"><small>Este mes</small><strong>${clp(month * settings.margin / 100)}</strong></div></div>`;
@@ -283,8 +261,6 @@ $('#cartWa').onclick = () => {
 const co = $('#checkoutForm');
 co.addEventListener('change', () => { renderSummary(); syncPayUI(); });
 co.addEventListener('submit', submitCheckout);
-co.cardnum.addEventListener('input', e => e.target.value = e.target.value.replace(/\D/g, '').slice(0, 16).replace(/(.{4})/g, '$1 ').trim());
-co.cardexp.addEventListener('input', e => { let v = e.target.value.replace(/\D/g, '').slice(0, 4); if (v.length > 2) v = v.slice(0, 2) + '/' + v.slice(2); e.target.value = v; });
 $('#contactForm').addEventListener('submit', e => {
   e.preventDefault(); const f = e.target;
   window.open(waLink(`Hola REYKED, soy ${f.nombre.value} (${f.email.value}${f.tel.value ? ', ' + f.tel.value : ''}).\n${f.msg.value}`), '_blank', 'noopener');
@@ -293,6 +269,11 @@ $('#contactForm').addEventListener('submit', e => {
 /* ===== Init ===== */
 const hello = waLink('Hola REYKED, quisiera cotizar productos para mi empresa.');
 ['heroWa', 'waFloat'].forEach(id => $('#' + id).href = hello);
-$('#kitPrice').textContent = clp(byId('kit-ht').price);
 $('#year').textContent = new Date().getFullYear();
-renderCats(); renderProducts(); renderCart();
+renderCats();
+(async () => {
+  try { PRODUCTS = await (await fetch('products.json')).json(); }
+  catch { $('#products').innerHTML = '<p class="note">No se pudo cargar el catálogo. Abre el sitio desde el servidor (npm start).</p>'; }
+  if (PRODUCTS.length) $('#kitPrice').textContent = clp(byId('kit-ht').price);
+  renderProducts(); renderCart(); handleReturn();
+})();

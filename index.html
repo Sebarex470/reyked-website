@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>REYKED Higiene & Seguridad | Aseo, seguridad industrial y logística en Concepción</title>
 <meta name="description" content="Insumos de aseo, desinfección, seguridad vial e industrial, logística y pisos para empresas en Concepción y todo Chile. Despacho rápido y cotización por WhatsApp.">
-<meta name="theme-color" content="#2F6DB5">
+<meta name="theme-color" content="#f6f8f7">
 <link rel="icon" href="assets/logo.webp" type="image/webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,26 +17,28 @@
 <header class="site-header" id="top">
   <div class="container nav">
     <a href="#top" class="brand" aria-label="REYKED Higiene & Seguridad - inicio">
-      <img src="assets/logo.webp" alt="" width="44" height="48">
-      <span><strong>REYKED</strong><small>Higiene &amp; Seguridad</small></span>
+      <img src="assets/logo.webp" alt="" width="40" height="44">
+      <span>reyked</span>
     </a>
     <nav class="menu" id="menu" aria-label="Principal">
-      <a href="#nosotros">Nosotros</a>
-      <a href="#catalogo">Catálogo</a>
-      <a href="#kit">Kit Higiene Total</a>
-      <a href="#despacho">Despacho</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#nosotros">nosotros</a>
+      <a href="#catalogo">catálogo</a>
+      <a href="#kit">kit</a>
+      <a href="#despacho">despacho</a>
+      <a href="#contacto">contacto</a>
     </nav>
     <div class="nav-actions">
-      <button class="icon-btn" id="openAccount" aria-label="Mi cuenta">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+      <button class="nav-btn" id="openAccount" aria-label="Mi cuenta">
+        <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1"><circle cx="10" cy="7" r="3.5"/><path d="M3 18c0-3.500 3.500-5 7-5s7 1.500 7 5"/></svg>
+        <span>cuenta</span>
       </button>
-      <button class="icon-btn" id="openCart" aria-label="Abrir carrito">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a1 1 0 0 0 1 .8h8.9a1 1 0 0 0 1-.8L20 8H6"/></svg>
-        <span class="badge" id="cartCount">0</span>
+      <button class="nav-btn" id="openCart" aria-label="Abrir carrito">
+        <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1"><path d="M1 2h3l2 10h9l2-7H5"/><circle cx="8" cy="16" r="1"/><circle cx="14" cy="16" r="1"/></svg>
+        <span>carrito (<b id="cartCount">0</b>)</span>
       </button>
-      <button class="icon-btn burger" id="burger" aria-label="Menú" aria-expanded="false">
-        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <button class="nav-btn burger" id="burger" aria-label="Menú" aria-expanded="false">
+        <svg viewBox="0 0 20 20" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1"><path d="M2 5h16M2 10h16M2 15h16"/></svg>
+        <span>menú</span>
       </button>
     </div>
   </div>
@@ -44,23 +46,18 @@
 
 <main>
 <!-- HERO -->
-<section class="hero">
+<section class="band dark hero">
   <div class="container hero-grid">
     <div class="hero-text">
-      <span class="pill">Concepción · Despacho a todo Chile</span>
-      <h1>Todo lo que tu empresa necesita para <span class="hl">limpiar, proteger y operar</span></h1>
-      <p>Insumos de aseo profesional, seguridad industrial y logística con <strong>despacho local rápido</strong> y productos certificados de alta calidad.</p>
+      <p class="label">concepción · despacho a todo chile</p>
+      <h1>Todo lo que tu empresa necesita para limpiar, proteger y operar</h1>
+      <p>Insumos de aseo profesional, seguridad industrial y logística con despacho local rápido y productos certificados de alta calidad.</p>
       <div class="cta-row">
-        <a class="btn btn-wa" id="heroWa" href="#" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
-        <a class="btn btn-ghost" href="#catalogo">Ver catálogo</a>
+        <a class="btn btn-light" id="heroWa" href="#" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+        <a class="btn btn-line" href="#catalogo">Ver catálogo</a>
       </div>
-      <ul class="hero-points">
-        <li>✔ Productos certificados</li><li>✔ Hasta 15 km en el día</li><li>✔ Atención personalizada B2B</li>
-      </ul>
     </div>
-    <div class="hero-art" aria-hidden="true">
-      <img src="assets/logo.webp" alt="" width="320" height="350">
-    </div>
+    <div class="hero-art"><img src="assets/logo.webp" alt="REYKED Comercializadora" width="300" height="328"></div>
   </div>
 </section>
 
@@ -69,34 +66,33 @@
   <div class="container about">
     <div>
       <h2>Quiénes somos</h2>
-      <p class="lead">Somos <strong>Comercializadora Reyked SPA</strong>. Nuestra misión es satisfacer de forma integral las necesidades de higiene, aseo profundo y seguridad industrial de nuestros clientes, con productos certificados de alta calidad y soluciones eficientes a la medida.</p>
+      <p class="lead">Somos Comercializadora Reyked SPA. Nuestra misión es satisfacer de forma integral las necesidades de higiene, aseo profundo y seguridad industrial de nuestros clientes, con productos certificados de alta calidad y soluciones eficientes a la medida.</p>
       <p>Atendemos a empresas, oficinas, comunidades y condominios, colegios y universidades, locales gastronómicos y el sector industrial, con un ciclo de venta ágil y personalizado para cada segmento.</p>
     </div>
     <div class="values">
-      <article><span>🛡️</span><h3>Calidad certificada</h3><p>Productos que cumplen estándares exigentes.</p></article>
-      <article><span>⚡</span><h3>Rapidez</h3><p>Despacho local ágil y envíos a todo Chile.</p></article>
-      <article><span>🤝</span><h3>Soluciones a medida</h3><p>Asesoría y cotización según tu rubro.</p></article>
-      <article><span>💧</span><h3>Bienestar</h3><p>Espacios limpios, seguros y eficientes.</p></article>
+      <article><h3>Calidad certificada</h3><p>Productos que cumplen estándares exigentes.</p></article>
+      <article><h3>Rapidez</h3><p>Despacho local ágil y envíos a todo Chile.</p></article>
+      <article><h3>Soluciones a medida</h3><p>Asesoría y cotización según tu rubro.</p></article>
+      <article><h3>Bienestar</h3><p>Espacios limpios, seguros y eficientes.</p></article>
     </div>
   </div>
 </section>
 
 <!-- CATALOGO -->
-<section class="section alt" id="catalogo">
+<section class="section ruled" id="catalogo">
   <div class="container">
-    <h2>Categorías principales</h2>
-    <p class="lead">Elige una línea y agrega productos a tu carrito o cotiza por WhatsApp.</p>
+    <h2>Catálogo</h2>
     <div class="cats" id="cats"></div>
-    <div class="grid" id="products"></div>
-    <p class="note">* Precios referenciales en CLP, IVA incluido. Sujetos a confirmación de stock; cotiza volumen por WhatsApp.</p>
   </div>
+  <div class="container"><div class="grid" id="products"></div></div>
+  <div class="container"><p class="note">Precios referenciales en CLP, IVA incluido. Sujetos a confirmación de stock; cotiza volumen por WhatsApp.</p></div>
 </section>
 
 <!-- KIT -->
-<section class="section" id="kit">
+<section class="band dark" id="kit">
   <div class="container kit">
-    <div class="kit-body">
-      <span class="pill pill-y">Destacado</span>
+    <div>
+      <p class="label">destacado</p>
       <h2>Kit Higiene Total</h2>
       <p class="lead">La solución rápida para oficinas y negocios: todo lo esencial de aseo y desinfección en un solo pedido.</p>
       <ul class="checks">
@@ -105,80 +101,78 @@
         <li>Amonio cuaternario Clean4+</li>
         <li>Paños, guantes y dispensadores básicos</li>
       </ul>
-      <div class="kit-buy">
-        <div><small>Desde</small><strong class="price" id="kitPrice"></strong></div>
-        <button class="btn btn-primary" id="addKit">Agregar al carrito</button>
-      </div>
     </div>
-    <div class="kit-art" aria-hidden="true">🧴🧽🧤</div>
+    <div class="kit-buy">
+      <span class="price" id="kitPrice"></span>
+      <button class="btn btn-light" id="addKit">Agregar al carrito</button>
+    </div>
   </div>
 </section>
 
 <!-- DESPACHO -->
-<section class="section alt" id="despacho">
+<section class="section" id="despacho">
   <div class="container">
-    <h2>Información de despacho</h2>
+    <h2>Despacho</h2>
     <div class="ship">
-      <article><span>📍</span><h3>Concepción y alrededores</h3><p>Cobertura típica de hasta <strong>15 km</strong> desde nuestro centro de distribución, con entrega local rápida.</p></article>
-      <article><span>🚚</span><h3>Todo Chile</h3><p>Envíos a regiones mediante transporte; el costo y plazo se confirman según destino y volumen.</p></article>
-      <article><span>🏬</span><h3>Retiro en tienda</h3><p>Las Heras 2241, Local 7 y nueva sucursal ampliada en Lautaro 771-775.</p></article>
+      <article><h3>Concepción y alrededores</h3><p>Cobertura típica de hasta 15 km desde nuestro centro de distribución, con entrega local rápida.</p></article>
+      <article><h3>Todo Chile</h3><p>Envíos a regiones mediante transporte; costo y plazo se confirman según destino y volumen.</p></article>
+      <article><h3>Retiro en tienda</h3><p>Las Heras 2241, Local 7 y nueva sucursal ampliada en Lautaro 771-775.</p></article>
     </div>
   </div>
 </section>
 
 <!-- CONTACTO -->
-<section class="section" id="contacto">
+<section class="section ruled" id="contacto">
   <div class="container contact">
     <div>
       <h2>Contacto</h2>
       <ul class="info">
-        <li><b>Dirección</b>Calle Las Heras 2241, Local 7, Concepción, Región del Biobío<br>Nueva sucursal: Lautaro 771-775, Concepción</li>
-        <li><b>Teléfono / WhatsApp</b><a href="tel:+56956474595">+56 9 5647 4595</a></li>
-        <li><b>Correos</b><a href="mailto:ventas@reyked.cl">ventas@reyked.cl</a> · <a href="mailto:kayala@reyked.cl">kayala@reyked.cl</a></li>
-        <li><b>Horario</b>Lunes a Viernes 09:00–18:00 hrs<br>Sábados 09:00–16:00 hrs (horario continuado)</li>
-        <li><b>Redes</b><a href="https://www.instagram.com/reyked.cl" target="_blank" rel="noopener">Instagram @reyked.cl</a> · <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+        <li><b>dirección</b>Calle Las Heras 2241, Local 7, Concepción, Región del Biobío<br>Nueva sucursal: Lautaro 771-775, Concepción</li>
+        <li><b>teléfono / whatsapp</b><a href="tel:+56956474595">+56 9 5647 4595</a></li>
+        <li><b>correos</b><a href="mailto:ventas@reyked.cl">ventas@reyked.cl</a> · <a href="mailto:kayala@reyked.cl">kayala@reyked.cl</a></li>
+        <li><b>horario</b>Lunes a viernes 09:00–18:00 hrs<br>Sábados 09:00–16:00 hrs (horario continuado)</li>
+        <li><b>redes</b><a href="https://www.instagram.com/reyked.cl" target="_blank" rel="noopener">Instagram @reyked.cl</a> · <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
       </ul>
     </div>
-    <form class="card form" id="contactForm">
+    <form class="form" id="contactForm">
       <h3>Solicita tu cotización</h3>
       <label>Nombre o empresa<input name="nombre" required autocomplete="organization"></label>
       <label>Correo<input type="email" name="email" required autocomplete="email"></label>
       <label>Teléfono<input type="tel" name="tel" autocomplete="tel"></label>
       <label>¿Qué necesitas?<textarea name="msg" rows="4" required></textarea></label>
-      <button class="btn btn-wa" type="submit">Enviar por WhatsApp</button>
+      <button class="btn btn-dark" type="submit">Enviar por WhatsApp</button>
     </form>
   </div>
 </section>
 </main>
 
-<footer class="footer">
+<footer class="band dark footer">
   <div class="container">
-    <img src="assets/logo.webp" alt="REYKED" width="48" height="52">
-    <p>© <span id="year"></span> Comercializadora Reyked SPA · Concepción, Chile</p>
+    <span>© <span id="year"></span> Comercializadora Reyked SPA · Concepción, Chile</span>
+    <a href="mailto:ventas@reyked.cl">ventas@reyked.cl</a>
+    <a href="https://www.instagram.com/reyked.cl" target="_blank" rel="noopener">@reyked.cl</a>
   </div>
 </footer>
 
-<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
-  <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.2 14.800l-.3-.2-3 .8.8-2.900-.2-.3A8 8 0 0 1 12 4zm-3 4c-.3 0-.7.100-1 .5-.4.500-1 1.200-1 2.500s1 2.700 1.100 2.900c.2.200 2 3.200 5 4.400 2.400.9 2.900.7 3.400.7.600-.1 1.700-.7 1.900-1.400.2-.6.2-1.200.2-1.300-.1-.1-.3-.2-.6-.4l-1.800-.9c-.3-.1-.5-.1-.7.200l-.8 1c-.1.200-.3.200-.6.100-.3-.2-1.200-.5-2.300-1.500-.8-.8-1.400-1.700-1.600-2-.2-.3 0-.4.100-.6l.5-.5.200-.4v-.4l-.9-2.100c-.2-.5-.5-.5-.7-.5z"/></svg>
-</a>
+<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener">whatsapp</a>
 
 <div class="overlay" id="overlay" hidden></div>
 
 <!-- CARRITO -->
 <aside class="drawer" id="cartDrawer" aria-label="Carrito" aria-hidden="true">
-  <div class="drawer-head"><h3>Tu carrito</h3><button class="icon-btn" data-close aria-label="Cerrar">✕</button></div>
+  <div class="drawer-head"><h3>Tu carrito</h3><button class="close" data-close aria-label="Cerrar">cerrar</button></div>
   <div class="drawer-body" id="cartItems"></div>
   <div class="drawer-foot">
     <div class="row"><span>Subtotal</span><strong id="cartSubtotal">$0</strong></div>
-    <button class="btn btn-primary block" id="goCheckout">Ir a pagar</button>
-    <button class="btn btn-wa block" id="cartWa">Cotizar carrito por WhatsApp</button>
+    <button class="btn btn-dark block" id="goCheckout">Ir a pagar</button>
+    <button class="btn btn-line block" id="cartWa">Cotizar carrito por WhatsApp</button>
   </div>
 </aside>
 
 <!-- CHECKOUT -->
 <div class="modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="coTitle" hidden>
   <div class="modal-box">
-    <div class="drawer-head"><h3 id="coTitle">Finalizar compra</h3><button class="icon-btn" data-close aria-label="Cerrar">✕</button></div>
+    <div class="drawer-head"><h3 id="coTitle">Finalizar compra</h3><button class="close" data-close aria-label="Cerrar">cerrar</button></div>
     <form id="checkoutForm" class="form" novalidate>
       <fieldset><legend>Datos de entrega</legend>
         <label>Nombre / Empresa<input name="nombre" required autocomplete="name"></label>
@@ -190,24 +184,15 @@
         </label>
       </fieldset>
       <fieldset><legend>Método de pago</legend>
-        <div class="pay-opts" id="payOpts">
-          <label><input type="radio" name="pago" value="tarjeta" checked><span>💳 Tarjeta crédito / débito</span></label>
-          <label><input type="radio" name="pago" value="mercadopago"><span>🟦 Mercado Pago</span></label>
-          <label><input type="radio" name="pago" value="webpay"><span>🏦 Webpay / Redcompra</span></label>
-          <label><input type="radio" name="pago" value="transferencia"><span>🔁 Transferencia bancaria</span></label>
-        </div>
-        <div id="cardFields" class="card-fields">
-          <label>Número de tarjeta<input name="cardnum" inputmode="numeric" autocomplete="cc-number" placeholder="0000 0000 0000 0000" maxlength="19"></label>
-          <div class="two">
-            <label>Vence (MM/AA)<input name="cardexp" inputmode="numeric" autocomplete="cc-exp" placeholder="MM/AA" maxlength="5"></label>
-            <label>CVV<input name="cardcvv" inputmode="numeric" autocomplete="cc-csc" maxlength="4" type="password"></label>
-          </div>
+        <div class="pay-opts">
+          <label><input type="radio" name="pago" value="mercadopago" checked><span>Mercado Pago · tarjetas de crédito y débito, saldo y otros medios</span></label>
+          <label><input type="radio" name="pago" value="transferencia"><span>Transferencia bancaria</span></label>
         </div>
         <p class="note" id="payNote"></p>
       </fieldset>
       <div class="summary" id="coSummary"></div>
       <p class="error" id="coError" role="alert"></p>
-      <button class="btn btn-primary block" type="submit" id="payBtn">Pagar</button>
+      <button class="btn btn-dark block" type="submit" id="payBtn">Pagar</button>
     </form>
   </div>
 </div>
@@ -215,12 +200,12 @@
 <!-- MI CUENTA -->
 <div class="modal" id="accountModal" role="dialog" aria-modal="true" aria-labelledby="acTitle" hidden>
   <div class="modal-box wide">
-    <div class="drawer-head"><h3 id="acTitle">Mi cuenta</h3><button class="icon-btn" data-close aria-label="Cerrar">✕</button></div>
+    <div class="drawer-head"><h3 id="acTitle">Mi cuenta</h3><button class="close" data-close aria-label="Cerrar">cerrar</button></div>
     <div class="tabs" role="tablist" id="acTabs">
-      <button class="on" data-tab="pedidos" role="tab">Pedidos</button>
-      <button data-tab="gastos" role="tab">Gastos</button>
-      <button data-tab="presupuesto" role="tab">Presupuesto</button>
-      <button data-tab="ganancias" role="tab">Ganancias</button>
+      <button class="on" data-tab="pedidos" role="tab">pedidos</button>
+      <button data-tab="gastos" role="tab">gastos</button>
+      <button data-tab="presupuesto" role="tab">presupuesto</button>
+      <button data-tab="ganancias" role="tab">ganancias</button>
     </div>
     <div id="acBody"></div>
   </div>
