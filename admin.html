@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Administración | REYKED</title>
+<link rel="icon" href="assets/logo.webp" type="image/webp">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="adm">
+<header class="site-header"><div class="container nav">
+  <a href="index.html" class="brand"><img src="assets/logo.webp" alt="" width="40" height="44"><span>reyked · administración</span></a>
+  <div class="nav-actions"><a class="nav-btn" href="index.html"><span>ver sitio</span></a><button class="nav-btn" id="logout" hidden><span>cerrar sesión</span></button></div>
+</div></header>
+
+<main class="container">
+  <section id="loginView" class="login" hidden>
+    <h1>Iniciar sesión</h1>
+    <form class="form" id="loginForm">
+      <label>Usuario<input name="user" autocomplete="username" required></label>
+      <label>Contraseña<input type="password" name="password" autocomplete="current-password" required></label>
+      <p class="error" id="loginErr" role="alert"></p>
+      <button class="btn btn-dark" type="submit">Entrar</button>
+    </form>
+  </section>
+
+  <section id="appView" hidden>
+    <div class="tabs" id="admTabs" role="tablist">
+      <button data-tab="resumen" class="on">resumen</button>
+      <button data-tab="pedidos">pedidos</button>
+      <button data-tab="productos">productos</button>
+      <button data-tab="gastos">gastos</button>
+      <button data-tab="presupuesto">presupuesto</button>
+      <button data-tab="ganancias">ganancias</button>
+      <button data-tab="clientes">clientes</button>
+    </div>
+    <div id="view" class="adm-view"></div>
+  </section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="admin.js"></script>
+</body>
+</html>
