@@ -15,6 +15,8 @@ interface ToastState {
 
 interface CartCtx {
   cart: Cart;
+  /** true cuando el carrito ya se leyó de localStorage (evita redirigir por un carrito "vacío" transitorio). */
+  ready: boolean;
   totals: { sub: number; iva: number; total: number; n: number };
   add: (id: string, n?: number) => void;
   setQty: (id: string, q: number) => void;
@@ -104,8 +106,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   }, [cart]);
 
   const value = useMemo(
-    () => ({ cart, totals, add, setQty, clear, toast, notify, bumpKey, bump }),
-    [cart, totals, add, setQty, clear, toast, notify, bumpKey, bump],
+    () => ({ cart, ready: loaded, totals, add, setQty, clear, toast, notify, bumpKey, bump }),
+    [cart, loaded, totals, add, setQty, clear, toast, notify, bumpKey, bump],
   );
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
