@@ -1,14 +1,17 @@
 import Link from "next/link";
-import { CATS, P, porPopularidad } from "@/data/productos";
+import { CATS_ACTIVAS, P, comprable, destacados } from "@/data/productos";
 import { clp } from "@/lib/format";
 import { Glyph } from "@/components/Glyph";
+import { ProductImage } from "@/components/ProductImage";
 import { AddButton } from "@/components/AddButton";
 import { ProductCard } from "@/components/ProductCard";
 import { HeroGrid } from "@/components/HeroGrid";
 import { Human } from "@/components/Human";
 
 export default function Inicio() {
-  const top = porPopularidad.slice(0, 3);
+  // "Lo más pedido": productos con foto y stock, empezando por los de mayor stock.
+  const dest = destacados.filter((p) => comprable(p) && p.img);
+  const top = dest.slice(0, 3);
   const ribbon = "Seguridad industrial ◆ Aseo ◆ Seguridad vial ◆ Envíos a todo Chile ◆ Retiro en Concepción ◆ ";
   return (
     <>
@@ -53,7 +56,7 @@ export default function Inicio() {
             </div>
             {top.map((p) => (
               <div className="q-item" key={p.id}>
-                <div className="g" aria-hidden="true"><Glyph g={p.g} /></div>
+                <div className="g" aria-hidden="true"><ProductImage p={p} sizes="44px" /></div>
                 <div>
                   <Link className="n" href={`/producto/${p.id}`}>{p.n}</Link>
                   <div className="p">{clp(p.p)} + IVA</div>
@@ -94,7 +97,7 @@ export default function Inicio() {
             <Link href="/tienda">Ver toda la tienda →</Link>
           </div>
           <div className="tiles">
-            {CATS.map((c) => {
+            {CATS_ACTIVAS.map((c) => {
               const n = P.filter((p) => p.c === c.k).length;
               return (
                 <Link className="tile rv" href={`/tienda/${c.k}`} key={c.k}>
@@ -114,7 +117,7 @@ export default function Inicio() {
             <Link href="/tienda">Ver todos →</Link>
           </div>
           <div className="grid">
-            {porPopularidad.slice(0, 4).map((p) => (
+            {dest.slice(0, 4).map((p) => (
               <ProductCard key={p.id} p={p} />
             ))}
           </div>

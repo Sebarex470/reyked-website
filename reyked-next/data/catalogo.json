@@ -1,0 +1,3776 @@
+[
+ {
+  "id": "tapon-de-oido-desechable-1100-3m-par-rk0706",
+  "code": "RK0706",
+  "n": "Tapón de Oído Desechable 1100 3M (par)",
+  "c": "industrial",
+  "s": "Cabeza, ojos y oídos",
+  "p": 210,
+  "stock": 600,
+  "img": "/productos/rk0706.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "pano-de-microfibra-rk0227",
+  "code": "RK0227",
+  "n": "Paño de Microfibra",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 760,
+  "stock": 137,
+  "img": "/productos/rk0227.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "bolsa-de-basura-50x70-rk0409",
+  "code": "RK0409",
+  "n": "Bolsa de Basura 50x70",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 650,
+  "stock": 119,
+  "img": "/productos/rk0409.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "pechera-con-manga-y-puno-rk0313",
+  "code": "RK0313",
+  "n": "Pechera con Manga y Puño",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 784,
+  "stock": 100,
+  "img": "/productos/rk0313.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "bolsa-50x65-10-uni-rk0381",
+  "code": "RK0381",
+  "n": "Bolsa 50x65 10 Uni",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 590,
+  "stock": 83,
+  "img": "/productos/rk0381.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "pano-multiuso-amarillo-grande-rk0130",
+  "code": "RK0130",
+  "n": "Paño Multiuso Amarillo Grande",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 300,
+  "stock": 76,
+  "img": "/productos/rk0130.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "bolsa-de-basura-70x90-paq-10-rk0153",
+  "code": "RK0153",
+  "n": "Bolsa de Basura 70x90 Paq 10",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 1150,
+  "stock": 50,
+  "img": "/productos/rk0153.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "alcohol-higienizante-1lt-70-isp-2548c-2-20-rk0102",
+  "code": "RK0102",
+  "n": "Alcohol Higienizante 1lt 70% ISP 2548C-2/20",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 2900,
+  "stock": 48,
+  "img": "/productos/rk0102.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "mascarilla-kids-50-uni-rk0150",
+  "code": "RK0150",
+  "n": "Mascarilla Kids 50 Uni",
+  "c": "industrial",
+  "s": "Mascarillas y protección facial",
+  "p": 2750,
+  "stock": 35,
+  "img": "/productos/rk0150.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "limpiapies-nomad-alto-trafico-con-borde-rk0607",
+  "code": "RK0607",
+  "n": "Limpiapies Nomad Alto Trafico con Borde",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 0,
+  "stock": 33,
+  "img": "/productos/rk0607.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "cono-naranjo-28-2-cintas-refl-b-goma-rk0158",
+  "code": "RK0158",
+  "n": "Cono Naranjo 28\" 2 Cintas Refl B/GOMA",
+  "c": "vial",
+  "s": "Conos y accesorios",
+  "p": 10400,
+  "stock": 30,
+  "img": "/productos/rk0158.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "toalla-jumbo-2x250-mts-rk0642",
+  "code": "RK0642",
+  "n": "Toalla Jumbo 2x250 Mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 9600,
+  "stock": 30,
+  "img": "/productos/rk0642.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "guante-fullgen-111-60-poliuretano-t-9-rk0681",
+  "code": "RK0681",
+  "n": "Guante Fullgen 111-60 – Poliuretano T/9",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 1300,
+  "stock": 30,
+  "img": "/productos/rk0681.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "escudos-facial-kids-disney-rk0212",
+  "code": "RK0212",
+  "n": "Escudos Facial Kids Disney",
+  "c": "industrial",
+  "s": "Mascarillas y protección facial",
+  "p": 672,
+  "stock": 26
+ },
+ {
+  "id": "guante-atox-pu-negro-pu2101n-talla-9-dielectrico-rk0950",
+  "code": "RK0950",
+  "n": "Guante Atox PU Negro PU2101N Talla 9 Dieléctrico",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 1100,
+  "stock": 25,
+  "img": "/productos/rk0950.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "pala-plastica-negra-rk0127",
+  "code": "RK0127",
+  "n": "Pala Plástica Negra",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1200,
+  "stock": 24,
+  "img": "/productos/rk0127.webp",
+  "w": 336,
+  "h": 640
+ },
+ {
+  "id": "jabon-liquido-fresh-5lts-rk0331",
+  "code": "RK0331",
+  "n": "Jabón Líquido Fresh 5lts",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 7900,
+  "stock": 24,
+  "img": "/productos/rk0331.webp",
+  "w": 607,
+  "h": 640
+ },
+ {
+  "id": "limpia-piso-virutex-900ml-rk0969",
+  "code": "RK0969",
+  "n": "Limpia Piso Virutex 900ml",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 1700,
+  "stock": 24,
+  "img": "/productos/rk0969.webp",
+  "w": 604,
+  "h": 604
+ },
+ {
+  "id": "bolsa-de-basura-80x110-paq-10-un-rk0225",
+  "code": "RK0225",
+  "n": "Bolsa de Basura 80x110 Paq 10 Un",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 1810,
+  "stock": 21,
+  "img": "/productos/rk0225.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "trapero-de-microfibra-rk0334",
+  "code": "RK0334",
+  "n": "Trapero de Microfibra",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1500,
+  "stock": 21,
+  "img": "/productos/rk0334.webp",
+  "w": 500,
+  "h": 473
+ },
+ {
+  "id": "negros-intensos-dr-beckmann-8-toallitas-rk0567",
+  "code": "RK0567",
+  "n": "Negros Intensos Dr. Beckmann 8 Toallitas",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 0,
+  "stock": 21,
+  "img": "/productos/rk0567.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "set-perfumero-dispensador-60ml-40ml-rk0596",
+  "code": "RK0596",
+  "n": "Set Perfumero + Dispensador 60ml + 40ml",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 1400,
+  "stock": 21
+ },
+ {
+  "id": "limpiador-crema-virutex-750ml-rk0967",
+  "code": "RK0967",
+  "n": "Limpiador Crema Virutex 750ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 1800,
+  "stock": 19,
+  "img": "/productos/rk0967.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "guante-nitrilo-verde-talla-l-rk0162",
+  "code": "RK0162",
+  "n": "Guante Nitrilo Verde Talla L",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 1100,
+  "stock": 18,
+  "img": "/productos/rk0162.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "cloro-gel-impeke-900ml-rk0223",
+  "code": "RK0223",
+  "n": "Cloro Gel Impeke 900ml",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 1400,
+  "stock": 18,
+  "img": "/productos/rk0223.webp",
+  "w": 204,
+  "h": 192
+ },
+ {
+  "id": "barra-conectora-de-conos-roja-blanca-rk0159",
+  "code": "RK0159",
+  "n": "Barra Conectora de Conos Roja-blanca",
+  "c": "vial",
+  "s": "Conos y accesorios",
+  "p": 4800,
+  "stock": 16,
+  "img": "/productos/rk0159.webp",
+  "w": 400,
+  "h": 400
+ },
+ {
+  "id": "higienico-elite-mega-4x50mt-rk0337",
+  "code": "RK0337",
+  "n": "Higiénico Elite Mega 4x50mt",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 3500,
+  "stock": 16,
+  "img": "/productos/rk0337.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "bolsa-de-basura-120x140x10un-rk0960",
+  "code": "RK0960",
+  "n": "Bolsa de Basura 120x140x10un",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 4700,
+  "stock": 15,
+  "img": "/productos/rk0960.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "toalla-interfoliada-elite-200hj-rk1001",
+  "code": "RK1001",
+  "n": "Toalla Interfoliada Elite 200hj",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 2800,
+  "stock": 15,
+  "img": "/productos/rk1001.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "cloro-tradicional-impeke-1lt-rk1010",
+  "code": "RK1010",
+  "n": "Cloro Tradicional Impeke 1lt",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 1350,
+  "stock": 15,
+  "img": "/productos/rk1010.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "guante-nitrilo-verde-talla-m-rk0161",
+  "code": "RK0161",
+  "n": "Guante Nitrilo Verde Talla M",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 1100,
+  "stock": 13,
+  "img": "/productos/rk0161.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "cinta-demarcatoria-ama-negro-48mmx33mts-rk0168",
+  "code": "RK0168",
+  "n": "Cinta Demarcatoria Ama-negro 48MMx33mts",
+  "c": "vial",
+  "s": "Cintas de demarcación",
+  "p": 6500,
+  "stock": 13,
+  "img": "/productos/rk0168.webp",
+  "w": 402,
+  "h": 500
+ },
+ {
+  "id": "tanax-insecticida-aerosol-rk0178",
+  "code": "RK0178",
+  "n": "Tanax Insecticida Aerosol",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 2700,
+  "stock": 13,
+  "img": "/productos/rk0178.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "pack-4-esponjas-bonobril-recta-rk0591",
+  "code": "RK0591",
+  "n": "Pack 4 Esponjas Bonobril Recta",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1400,
+  "stock": 13,
+  "img": "/productos/rk0591.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "lysoform-spray-desinfectante-rk0361",
+  "code": "RK0361",
+  "n": "Lysoform Spray Desinfectante",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 4500,
+  "stock": 12,
+  "img": "/productos/rk0361.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "toalla-jumbo-2x200mts-rk1006",
+  "code": "RK1006",
+  "n": "Toalla Jumbo 2x200mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 8800,
+  "stock": 12,
+  "img": "/productos/rk1006.webp",
+  "w": 495,
+  "h": 640
+ },
+ {
+  "id": "toalla-virutex-desinfectante-50un-rk0322",
+  "code": "RK0322",
+  "n": "Toalla Virutex Desinfectante 50un",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 3800,
+  "stock": 11,
+  "img": "/productos/rk0322.webp",
+  "w": 210,
+  "h": 247
+ },
+ {
+  "id": "desodorante-ambiental-fresh-5lts-rk0367",
+  "code": "RK0367",
+  "n": "Desodorante Ambiental Fresh 5lts",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 12900,
+  "stock": 11,
+  "img": "/productos/rk0367.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "jabon-liquido-ballerina-750ml-rk0675",
+  "code": "RK0675",
+  "n": "Jabón Líquido Ballerina 750ml",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 1800,
+  "stock": 11,
+  "img": "/productos/rk0675.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "telescopico-3mts-rk0134",
+  "code": "RK0134",
+  "n": "Telescópico 3mts",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 10753,
+  "stock": 10
+ },
+ {
+  "id": "secapiso-plastico-55cm-rk0136",
+  "code": "RK0136",
+  "n": "Secapiso Plástico 55cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 12300,
+  "stock": 10,
+  "img": "/productos/rk0136.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "desodorante-amb-arom-rk0181",
+  "code": "RK0181",
+  "n": "Desodorante Amb Arom",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 1850,
+  "stock": 10,
+  "img": "/productos/rk0181.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "higienico-suan-6x20mts-rk0196",
+  "code": "RK0196",
+  "n": "Higiénico Suan 6x20mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1900,
+  "stock": 10,
+  "img": "/productos/rk0196.webp",
+  "w": 225,
+  "h": 225
+ },
+ {
+  "id": "bolsa-de-basura-140x160-rk0509",
+  "code": "RK0509",
+  "n": "Bolsa de Basura 140x160",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 10930,
+  "stock": 10,
+  "img": "/productos/rk0509.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "perno-anclaje-1-2-7-tope-estacionamiento-rk0555",
+  "code": "RK0555",
+  "n": "Perno Anclaje 1/2*7 Tope Estacionamiento",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 1400,
+  "stock": 10,
+  "img": "/productos/rk0555.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "limpia-vidrios-1000ml-rk0986",
+  "code": "RK0986",
+  "n": "Limpia Vidrios 1000ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 2370,
+  "stock": 10
+ },
+ {
+  "id": "cinta-embalaje-transparente-48mmx40mts-rk0387",
+  "code": "RK0387",
+  "n": "Cinta Embalaje Transparente 48MMx40mts",
+  "c": "carga",
+  "s": "Embalaje",
+  "p": 730,
+  "stock": 9,
+  "img": "/productos/rk0387.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "esponja-acanalada-rk415",
+  "code": "RK415",
+  "n": "Esponja Acanalada",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 300,
+  "stock": 9
+ },
+ {
+  "id": "servilletas-tork-200-und-rk0650",
+  "code": "RK0650",
+  "n": "Servilletas Tork 200 Und",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1700,
+  "stock": 9,
+  "img": "/productos/rk0650.webp",
+  "w": 297,
+  "h": 170
+ },
+ {
+  "id": "anteojo-getpro-b-cover-clear-sf-1-0-rk0902",
+  "code": "RK0902",
+  "n": "Anteojo Getpro B-cover Clear SF-1 0",
+  "c": "industrial",
+  "s": "Cabeza, ojos y oídos",
+  "p": 1100,
+  "stock": 9,
+  "img": "/productos/rk0902.webp",
+  "w": 572,
+  "h": 349
+ },
+ {
+  "id": "antigrasa-sapolio-650ml-rk1012",
+  "code": "RK1012",
+  "n": "Antigrasa Sapolio 650ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 1900,
+  "stock": 9,
+  "img": "/productos/rk1012.webp",
+  "w": 225,
+  "h": 225
+ },
+ {
+  "id": "higienico-scott-22mtx24r-d-h-rk1017",
+  "code": "RK1017",
+  "n": "Higiénico Scott 22MTx24R D/H",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 8400,
+  "stock": 9,
+  "img": "/productos/rk1017.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "mascarilla-celeste-50-uni-rk0151",
+  "code": "RK0151",
+  "n": "Mascarilla Celeste 50 Uni",
+  "c": "industrial",
+  "s": "Mascarillas y protección facial",
+  "p": 1700,
+  "stock": 8,
+  "img": "/productos/rk0151.webp",
+  "w": 210,
+  "h": 222
+ },
+ {
+  "id": "barra-conectora-de-conos-negr-amar-rk0160",
+  "code": "RK0160",
+  "n": "Barra Conectora de Conos Negr-amar",
+  "c": "vial",
+  "s": "Conos y accesorios",
+  "p": 4800,
+  "stock": 8,
+  "img": "/productos/rk0160.webp",
+  "w": 225,
+  "h": 225
+ },
+ {
+  "id": "trapero-virutex-rk0228",
+  "code": "RK0228",
+  "n": "Trapero Virutex",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2300,
+  "stock": 8,
+  "img": "/productos/rk0228.webp",
+  "w": 210,
+  "h": 239
+ },
+ {
+  "id": "porta-mopa-microfibra-60cm-base-mango-rk0259",
+  "code": "RK0259",
+  "n": "Porta Mopa Microfibra 60cm Base+mango",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 19900,
+  "stock": 8,
+  "img": "/productos/rk0259.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "plumero-sintetico-rk0436",
+  "code": "RK0436",
+  "n": "Plumero Sintetico",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1800,
+  "stock": 8,
+  "img": "/productos/rk0436.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "desengrasante-tremex-5lts-rk0704",
+  "code": "RK0704",
+  "n": "Desengrasante Tremex 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 11500,
+  "stock": 8,
+  "img": "/productos/rk0704.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "paleta-pare-siga-rk0972",
+  "code": "RK0972",
+  "n": "Paleta Pare-siga",
+  "c": "vial",
+  "s": "Balizas y señalización",
+  "p": 5900,
+  "stock": 8,
+  "img": "/productos/rk0972.webp",
+  "w": 210,
+  "h": 230
+ },
+ {
+  "id": "trampa-raton-pegamento-grande-rk0973",
+  "code": "RK0973",
+  "n": "Trampa Raton Pegamento Grande",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 600,
+  "stock": 8,
+  "img": "/productos/rk0973.webp",
+  "w": 200,
+  "h": 252
+ },
+ {
+  "id": "desengrasante-industrial-1lts-c-gatillo-rk0988",
+  "code": "RK0988",
+  "n": "Desengrasante Industrial 1lts C/GATILLO",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 4500,
+  "stock": 8,
+  "img": "/productos/rk0988.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "shampoo-de-autos-blue-magic-5lt-rk0115",
+  "code": "RK0115",
+  "n": "Shampoo de Autos Blue Magic 5lt",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 10500,
+  "stock": 7,
+  "img": "/productos/rk0115.webp",
+  "w": 430,
+  "h": 425
+ },
+ {
+  "id": "escobillon-extragrande-rk0205",
+  "code": "RK0205",
+  "n": "Escobillon Extragrande",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 4600,
+  "stock": 7,
+  "img": "/productos/rk0205.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "toalla-elite-2x24mt-rk0365",
+  "code": "RK0365",
+  "n": "Toalla Elite 2x24mt",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1900,
+  "stock": 7,
+  "img": "/productos/rk0365.webp",
+  "w": 400,
+  "h": 400
+ },
+ {
+  "id": "bolsa-de-basura-negra-115x150-rk0385",
+  "code": "RK0385",
+  "n": "Bolsa de Basura Negra 115x150",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 5810,
+  "stock": 7,
+  "img": "/productos/rk0385.webp",
+  "w": 267,
+  "h": 189
+ },
+ {
+  "id": "tope-de-estac-55x15x10cm-neg-amar-rk0552",
+  "code": "RK0552",
+  "n": "Tope de Estac. 55x15x10cm NEG/AMAR",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 11400,
+  "stock": 7,
+  "img": "/productos/rk0552.webp",
+  "w": 210,
+  "h": 239
+ },
+ {
+  "id": "pala-impeke-rk0619",
+  "code": "RK0619",
+  "n": "Pala Impeke",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3100,
+  "stock": 7,
+  "img": "/productos/rk0619.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "limpiador-sanitizante-de-piso-5lt-rk0116",
+  "code": "RK0116",
+  "n": "Limpiador Sanitizante de Piso 5lt",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 7800,
+  "stock": 6,
+  "img": "/productos/rk0116.webp",
+  "w": 551,
+  "h": 555
+ },
+ {
+  "id": "mopa-hogar-200gr-rk0118",
+  "code": "RK0118",
+  "n": "Mopa Hogar 200gr",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2500,
+  "stock": 6,
+  "img": "/productos/rk0118.webp",
+  "w": 210,
+  "h": 225
+ },
+ {
+  "id": "senal-etica-piso-humedo-rk0133",
+  "code": "RK0133",
+  "n": "Señal Ética Piso Humedo",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 6350,
+  "stock": 6,
+  "img": "/productos/rk0133.webp",
+  "w": 210,
+  "h": 279
+ },
+ {
+  "id": "escobillon-virutex-rk0195",
+  "code": "RK0195",
+  "n": "Escobillon Virutex",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3300,
+  "stock": 6,
+  "img": "/productos/rk0195.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "higienico-4x500mts-rk0229",
+  "code": "RK0229",
+  "n": "Higiénico 4x500mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 12400,
+  "stock": 6,
+  "img": "/productos/rk0229.webp",
+  "w": 500,
+  "h": 486
+ },
+ {
+  "id": "horquilla-mopa-seca-90cm-rk0303",
+  "code": "RK0303",
+  "n": "Horquilla Mopa Seca 90cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 5600,
+  "stock": 6,
+  "img": "/productos/rk0303.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "bolsa-de-70x90-virutex-rk0390",
+  "code": "RK0390",
+  "n": "Bolsa de 70x90 Virutex",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 1480,
+  "stock": 6,
+  "img": "/productos/rk0390.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "toalla-ovella-multiuso-100mts-rk0472",
+  "code": "RK0472",
+  "n": "Toalla Ovella Multiuso 100mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 2650,
+  "stock": 6,
+  "img": "/productos/rk0472.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "toallas-babysec-premium-50un-rk0489",
+  "code": "RK0489",
+  "n": "Toallas Babysec Premium 50un",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1200,
+  "stock": 6,
+  "img": "/productos/rk0489.webp",
+  "w": 236,
+  "h": 213
+ },
+ {
+  "id": "bolsa-basura-90x120-10un-rk0610",
+  "code": "RK0610",
+  "n": "Bolsa Basura 90x120 10un",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 3040,
+  "stock": 6,
+  "img": "/productos/rk0610.webp",
+  "w": 242,
+  "h": 209
+ },
+ {
+  "id": "escobillon-virutex-extra-grande-rojo-rk0696",
+  "code": "RK0696",
+  "n": "Escobillon Virutex Extra Grande Rojo",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 5930,
+  "stock": 6,
+  "img": "/productos/rk0696.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "pastilla-wc-x3-klaren-rk0932",
+  "code": "RK0932",
+  "n": "Pastilla WC x3 Klaren",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 2200,
+  "stock": 6,
+  "img": "/productos/rk0932.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "cloro-liquido-5lts-certificado-rk0979",
+  "code": "RK0979",
+  "n": "Cloro Líquido 5lts Certificado",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 3600,
+  "stock": 6,
+  "img": "/productos/rk0979.webp",
+  "w": 365,
+  "h": 547
+ },
+ {
+  "id": "bolsa-de-basura-120x130-paq-10u-rk1016",
+  "code": "RK1016",
+  "n": "Bolsa de Basura 120x130 Paq 10U",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 7900,
+  "stock": 6,
+  "img": "/productos/rk1016.webp",
+  "w": 210,
+  "h": 239
+ },
+ {
+  "id": "desengrasante-limgrass-5lt-rk0107",
+  "code": "RK0107",
+  "n": "Desengrasante Limgrass 5lt",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 9200,
+  "stock": 5,
+  "img": "/productos/rk0107.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "repuesto-mopa-humeda-alg-160z-rk0119",
+  "code": "RK0119",
+  "n": "Repuesto Mopa Humeda Alg 160Z",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3800,
+  "stock": 5,
+  "img": "/productos/rk0119.webp",
+  "w": 347,
+  "h": 500
+ },
+ {
+  "id": "repuesto-de-mopa-seca-90cm-rk0122",
+  "code": "RK0122",
+  "n": "Repuesto de Mopa Seca 90cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 7140,
+  "stock": 5,
+  "img": "/productos/rk0122.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "buzo-protect-cover-blanco-l-rk0163",
+  "code": "RK0163",
+  "n": "Buzo Protect Cover Blanco L",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 2100,
+  "stock": 5,
+  "img": "/productos/rk0163.webp",
+  "w": 225,
+  "h": 225
+ },
+ {
+  "id": "cinta-de-aluminio-30m-50mmx50mts-rk0166",
+  "code": "RK0166",
+  "n": "Cinta de Aluminio 30M 50MMx50mts",
+  "c": "construccion",
+  "s": "Cintas",
+  "p": 9210,
+  "stock": 5,
+  "img": "/productos/rk0166.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "desodorante-amb-glade-360cc-rk0182",
+  "code": "RK0182",
+  "n": "Desodorante Amb Glade 360cc",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 3000,
+  "stock": 5,
+  "img": "/productos/rk0182.webp",
+  "w": 480,
+  "h": 640
+ },
+ {
+  "id": "cubre-calzado-antideslizante-100uni-rk0190",
+  "code": "RK0190",
+  "n": "Cubre Calzado Antideslizante 100uni",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 3600,
+  "stock": 5,
+  "img": "/productos/rk0190.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "pad-17-rk0304",
+  "code": "RK0304",
+  "n": "Pad 17\"",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 7990,
+  "stock": 5
+ },
+ {
+  "id": "panuelo-desechable-elite-rk0451",
+  "code": "RK0451",
+  "n": "Pañuelo Desechable Elite",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1100,
+  "stock": 5,
+  "img": "/productos/rk0451.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "sobre-negro-intenso-dr-beckmann-rk0571",
+  "code": "RK0571",
+  "n": "Sobre Negro Intenso Dr. Beckmann",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 600,
+  "stock": 5
+ },
+ {
+  "id": "detergente-bless-5lt-rk0617",
+  "code": "RK0617",
+  "n": "Detergente Bless 5lt",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 6700,
+  "stock": 5,
+  "img": "/productos/rk0617.webp",
+  "w": 398,
+  "h": 489
+ },
+ {
+  "id": "guante-getpro-cut-5-pu-gris-anticorte-h3101-5-rk0943",
+  "code": "RK0943",
+  "n": "Guante Getpro Cut 5 PU Gris Anticorte H3101-5",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 2400,
+  "stock": 5,
+  "img": "/productos/rk0943.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "sopapo-con-mango-de-madera-rk0128",
+  "code": "RK0128",
+  "n": "Sopapo con Mango de Madera",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1500,
+  "stock": 4,
+  "img": "/productos/rk0128.webp",
+  "w": 381,
+  "h": 492
+ },
+ {
+  "id": "cif-limpiador-en-crema-750ml-rk0184",
+  "code": "RK0184",
+  "n": "Cif Limpiador en Crema 750ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 2650,
+  "stock": 4,
+  "img": "/productos/rk0184.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "limpiador-desinfectante-clean-4-amonio-5lts-rk0191",
+  "code": "RK0191",
+  "n": "Limpiador Desinfectante Clean 4+ Amonio 5lts",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 10500,
+  "stock": 4,
+  "img": "/productos/rk0191.webp",
+  "w": 534,
+  "h": 573
+ },
+ {
+  "id": "cloro-gel-igenix-900ml-rk0243",
+  "code": "RK0243",
+  "n": "Cloro Gel Igenix 900ml",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 1900,
+  "stock": 4,
+  "img": "/productos/rk0243.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "repuesto-de-mopa-humeda-de-microfibra-60cm-rk0300",
+  "code": "RK0300",
+  "n": "Repuesto de Mopa Humeda de Microfibra 60cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 6000,
+  "stock": 4,
+  "img": "/productos/rk0300.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "guante-nitrilo-verde-talla-s-rk0301",
+  "code": "RK0301",
+  "n": "Guante Nitrilo Verde Talla S",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 1100,
+  "stock": 4,
+  "img": "/productos/rk0301.webp",
+  "w": 210,
+  "h": 279
+ },
+ {
+  "id": "film-stretch-manual-500mmx20micx110mts-rk0306",
+  "code": "RK0306",
+  "n": "Film Stretch Manual 500MMx20MICx110mts",
+  "c": "carga",
+  "s": "Embalaje",
+  "p": 5923,
+  "stock": 4,
+  "img": "/productos/rk0306.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "toalla-desinfectantes-igenix-50un-rk0360",
+  "code": "RK0360",
+  "n": "Toalla Desinfectantes Igenix 50un",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 5900,
+  "stock": 4,
+  "img": "/productos/rk0360.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "traperos-absorventes-virutex-40x40-rk0443",
+  "code": "RK0443",
+  "n": "Traperos Absorventes Virutex 40x40",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3900,
+  "stock": 4,
+  "img": "/productos/rk0443.webp",
+  "w": 458,
+  "h": 500
+ },
+ {
+  "id": "jabon-liquido-5lts-rk0458",
+  "code": "RK0458",
+  "n": "Jabón Líquido 5lts",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 6500,
+  "stock": 4
+ },
+ {
+  "id": "perno-anclaje-1-2-x5-lomo-de-toro-rk0482",
+  "code": "RK0482",
+  "n": "Perno Anclaje 1/2\"x5\" Lomo de Toro",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 1223,
+  "stock": 4,
+  "img": "/productos/rk0482.webp",
+  "w": 210,
+  "h": 239
+ },
+ {
+  "id": "higienico-suan-d-h-4x50mts-rk0558",
+  "code": "RK0558",
+  "n": "Higiénico Suan D/H 4x50mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 3350,
+  "stock": 4,
+  "img": "/productos/rk0558.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "basurero-c-tvaiven-15-lts-rk0604",
+  "code": "RK0604",
+  "n": "Basurero C/TVAIVEN 15 Lts",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 6500,
+  "stock": 4,
+  "img": "/productos/rk0604.webp",
+  "w": 308,
+  "h": 500
+ },
+ {
+  "id": "limpiapies-13mmx120x100-con-bordes-rk0641",
+  "code": "RK0641",
+  "n": "Limpiapies 13MMx120x100 con Bordes",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 0,
+  "stock": 4
+ },
+ {
+  "id": "separador-de-cinta-retractil-para-conos-rojo-blanco-rk0899",
+  "code": "RK0899",
+  "n": "Separador de Cinta Retractil para Conos Rojo-blanco",
+  "c": "vial",
+  "s": "Conos y accesorios",
+  "p": 12900,
+  "stock": 4,
+  "img": "/productos/rk0899.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "abrigo-pvc-azul-impermeable-talla-l-rk0924",
+  "code": "RK0924",
+  "n": "Abrigo PVC Azul Impermeable Talla L",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 8000,
+  "stock": 4,
+  "img": "/productos/rk0924.webp",
+  "w": 600,
+  "h": 600
+ },
+ {
+  "id": "gorro-clip-100un-rk0930",
+  "code": "RK0930",
+  "n": "Gorro Clip 100un",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 3600,
+  "stock": 4,
+  "img": "/productos/rk0930.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "capa-impermeable-con-reflectante-rk1007",
+  "code": "RK1007",
+  "n": "Capa Impermeable con Reflectante",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 4800,
+  "stock": 4,
+  "img": "/productos/rk1007.webp",
+  "w": 554,
+  "h": 554
+ },
+ {
+  "id": "pulverizador-1000ml-rk0185",
+  "code": "RK0185",
+  "n": "Pulverizador 1000ml",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2300,
+  "stock": 3,
+  "img": "/productos/rk0185.webp",
+  "w": 610,
+  "h": 610
+ },
+ {
+  "id": "horquilla-60cm-mop-seca-rk0126",
+  "code": "RK0126",
+  "n": "Horquilla 60cm Mop Seca",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 4900,
+  "stock": 3,
+  "img": "/productos/rk0126.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "termometro-digital-rk0174",
+  "code": "RK0174",
+  "n": "Termómetro Digital",
+  "c": "aseo",
+  "s": "Higiene personal",
+  "p": 19263,
+  "stock": 3
+ },
+ {
+  "id": "guante-latex-s-caja-100uni-rk0338",
+  "code": "RK0338",
+  "n": "Guante Latex S Caja 100uni",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 6900,
+  "stock": 3,
+  "img": "/productos/rk0338.webp",
+  "w": 539,
+  "h": 371
+ },
+ {
+  "id": "guante-nitrilo-l-caja-100-uni-rk0342",
+  "code": "RK0342",
+  "n": "Guante Nitrilo L Caja 100 Uni",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 5200,
+  "stock": 3,
+  "img": "/productos/rk0342.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "tapete-uriario-aromatico-rk0380",
+  "code": "RK0380",
+  "n": "Tapete Uriario Aromatico",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 2500,
+  "stock": 3,
+  "img": "/productos/rk0380.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "cera-piso-de-madera-alex-750ml-rk0408",
+  "code": "RK0408",
+  "n": "Cera Piso de Madera Alex 750ml",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 8200,
+  "stock": 3,
+  "img": "/productos/rk0408.webp",
+  "w": 447,
+  "h": 447
+ },
+ {
+  "id": "cono-naranjo-36-2-cintas-refl-s-base-rk0411",
+  "code": "RK0411",
+  "n": "Cono Naranjo 36\" 2 Cintas Refl S/BASE",
+  "c": "vial",
+  "s": "Conos y accesorios",
+  "p": 12800,
+  "stock": 3,
+  "img": "/productos/rk0411.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "lustra-mueble-250ml-rk0462",
+  "code": "RK0462",
+  "n": "Lustra Mueble 250ml",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 2100,
+  "stock": 3
+ },
+ {
+  "id": "escobilla-plancha-de-lavar-rk0624",
+  "code": "RK0624",
+  "n": "Escobilla Plancha de Lavar",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1200,
+  "stock": 3,
+  "img": "/productos/rk0624.webp",
+  "w": 612,
+  "h": 612
+ },
+ {
+  "id": "pulverizador-de-espalda-ergo-16lts-rk0668",
+  "code": "RK0668",
+  "n": "Pulverizador de Espalda Ergo 16lts",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 38800,
+  "stock": 3
+ },
+ {
+  "id": "nescafe-tradicion-400grs-rk0913",
+  "code": "RK0913",
+  "n": "Nescafe Tradicion 400grs",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 17000,
+  "stock": 3,
+  "img": "/productos/rk0913.webp",
+  "w": 210,
+  "h": 239
+ },
+ {
+  "id": "film-manual-500mm-20mm-2-negro-rk0928",
+  "code": "RK0928",
+  "n": "Film Manual 500mm*20mm*2\" Negro",
+  "c": "carga",
+  "s": "Embalaje",
+  "p": 9600,
+  "stock": 3,
+  "img": "/productos/rk0928.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "desodorante-ambiental-optimus-sandia-5lts-rk0941",
+  "code": "RK0941",
+  "n": "Desodorante Ambiental Optimus Sandia 5lts",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 10700,
+  "stock": 3
+ },
+ {
+  "id": "guante-nitrilo-negro-100un-talla-l-rk0947",
+  "code": "RK0947",
+  "n": "Guante Nitrilo Negro 100un Talla L",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 5200,
+  "stock": 3,
+  "img": "/productos/rk0947.webp",
+  "w": 500,
+  "h": 500
+ },
+ {
+  "id": "pastilla-de-inodoro-lavanda-45grs-rk0998",
+  "code": "RK0998",
+  "n": "Pastilla de Inodoro Lavanda 45grs",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 1200,
+  "stock": 3,
+  "img": "/productos/rk0998.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "detergente-omo-400grs-rk1004",
+  "code": "RK1004",
+  "n": "Detergente Omo 400grs",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 1400,
+  "stock": 3,
+  "img": "/productos/rk1004.webp",
+  "w": 640,
+  "h": 640
+ },
+ {
+  "id": "alcohol-gel-5lt-70-rk0103",
+  "code": "RK0103",
+  "n": "Alcohol Gel 5lt 70%",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 19700,
+  "stock": 2,
+  "img": "/productos/rk0103.webp",
+  "w": 185,
+  "h": 194
+ },
+ {
+  "id": "dispensador-plastico-de-higiencio-rk0139",
+  "code": "RK0139",
+  "n": "Dispensador Plástico de Higiencio",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 14600,
+  "stock": 2
+ },
+ {
+  "id": "pastilla-de-bano-3pcs-rk0144",
+  "code": "RK0144",
+  "n": "Pastilla de Baño 3PCS",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 3900,
+  "stock": 2
+ },
+ {
+  "id": "bolsa-de-basura-virutex-50x70-paq-10-rk0152",
+  "code": "RK0152",
+  "n": "Bolsa de Basura Virutex 50x70 Paq 10",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 643,
+  "stock": 2
+ },
+ {
+  "id": "buzo-protect-cover-blanco-xl-rk0164",
+  "code": "RK0164",
+  "n": "Buzo Protect Cover Blanco XL",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 2100,
+  "stock": 2
+ },
+ {
+  "id": "cinta-reflec-diamante-blanc-rojo-50mmx5mts-rk0170",
+  "code": "RK0170",
+  "n": "Cinta Reflec Diamante Blanc-rojo 50MMx5mts",
+  "c": "vial",
+  "s": "Cintas de demarcación",
+  "p": 11000,
+  "stock": 2
+ },
+ {
+  "id": "trapero-humedo-desinfectante-virutex-rk0180",
+  "code": "RK0180",
+  "n": "Trapero Humedo Desinfectante Virutex",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 3000,
+  "stock": 2
+ },
+ {
+  "id": "8m-cera-acrilica-classi-5lts-rk0307",
+  "code": "RK0307",
+  "n": "8M Cera Acrílica Classi 5lts",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 34300,
+  "stock": 2
+ },
+ {
+  "id": "guante-latex-l-caja-100-uni-rk0340",
+  "code": "RK0340",
+  "n": "Guante Latex L Caja 100 Uni",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 6900,
+  "stock": 2
+ },
+ {
+  "id": "esponja-virutex-x4-rk0346",
+  "code": "RK0346",
+  "n": "Esponja Virutex x4",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1500,
+  "stock": 2
+ },
+ {
+  "id": "pano-spongi-virutex-pro-x6-rk0359",
+  "code": "RK0359",
+  "n": "Paño Spongi Virutex Pro x6",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3800,
+  "stock": 2
+ },
+ {
+  "id": "guante-cabritilla-rk0375",
+  "code": "RK0375",
+  "n": "Guante Cabritilla",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 1900,
+  "stock": 2
+ },
+ {
+  "id": "basurero-c-t-vaiven-30-lts-rk0395",
+  "code": "RK0395",
+  "n": "Basurero C/T Vaiven 30 Lts",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 6302,
+  "stock": 2
+ },
+ {
+  "id": "cinta-embalaje-48mmx40mts-fragil-rk0423",
+  "code": "RK0423",
+  "n": "Cinta Embalaje 48MMx40mts Fragil",
+  "c": "carga",
+  "s": "Embalaje",
+  "p": 2800,
+  "stock": 2
+ },
+ {
+  "id": "kit-chiporro-35cm-rk0447",
+  "code": "RK0447",
+  "n": "Kit Chiporro 35cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 5800,
+  "stock": 2
+ },
+ {
+  "id": "abrillantador-de-piso-flotantes-900ml-rk0455",
+  "code": "RK0455",
+  "n": "Abrillantador de Piso Flotantes 900ml",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 4411,
+  "stock": 2
+ },
+ {
+  "id": "carro-estrujador-33lt-rk0495",
+  "code": "RK0495",
+  "n": "Carro Estrujador 33lt",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 48900,
+  "stock": 2
+ },
+ {
+  "id": "removedor-de-ceras-klapp-5lts-rk0505",
+  "code": "RK0505",
+  "n": "Removedor de Ceras Klapp 5lts",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 19040,
+  "stock": 2
+ },
+ {
+  "id": "limpiapiso-desinfectante-igenix-900ml-rk0560",
+  "code": "RK0560",
+  "n": "Limpiapiso Desinfectante Igenix 900ml",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 1600,
+  "stock": 2
+ },
+ {
+  "id": "lavaloza-750ml-rk0579",
+  "code": "RK0579",
+  "n": "Lavaloza 750ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 1800,
+  "stock": 2
+ },
+ {
+  "id": "papelero-60-lts-t-vaiven-rk0602",
+  "code": "RK0602",
+  "n": "Papelero 60 Lts T/VAIVEN",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 15500,
+  "stock": 2
+ },
+ {
+  "id": "argolla-plast-para-conos-rk0618",
+  "code": "RK0618",
+  "n": "Argolla Plast. para Conos",
+  "c": "vial",
+  "s": "Conos y accesorios",
+  "p": 1800,
+  "stock": 2
+ },
+ {
+  "id": "lavalozas-aroma-limon-5lts-rk0623",
+  "code": "RK0623",
+  "n": "Lavalozas Aroma Limon 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 6500,
+  "stock": 2
+ },
+ {
+  "id": "secapiso-barreagua-metalico-75cm-rk0625",
+  "code": "RK0625",
+  "n": "Secapiso – Barreagua Metálico 75cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 15350,
+  "stock": 2
+ },
+ {
+  "id": "papelero-pedal-12lts-rk0637",
+  "code": "RK0637",
+  "n": "Papelero Pedal 12lts",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 7200,
+  "stock": 2
+ },
+ {
+  "id": "guante-getpro-tpr-cuero-rk0680",
+  "code": "RK0680",
+  "n": "Guante Getpro TPR Cuero",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 7400,
+  "stock": 2
+ },
+ {
+  "id": "lampara-destellante-para-barreras-rk0901",
+  "code": "RK0901",
+  "n": "Lámpara Destellante para Barreras",
+  "c": "vial",
+  "s": "Barreras",
+  "p": 13200,
+  "stock": 2
+ },
+ {
+  "id": "tacha-amarilla-10x10x2cm-doble-reflectivo-rk0903",
+  "code": "RK0903",
+  "n": "Tacha Amarilla 10x10x2cm Doble Reflectivo",
+  "c": "vial",
+  "s": "Hitos y tachas",
+  "p": 1990,
+  "stock": 2
+ },
+ {
+  "id": "repuesto-electrico-aceite-air-wick-rk0906",
+  "code": "RK0906",
+  "n": "Repuesto Eléctrico Aceite Air Wick",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 5400,
+  "stock": 2
+ },
+ {
+  "id": "guante-nitrilo-negro-100un-talla-m-rk0948",
+  "code": "RK0948",
+  "n": "Guante Nitrilo Negro 100un Talla M",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 4900,
+  "stock": 2
+ },
+ {
+  "id": "jabon-liquido-sachet-1000ml-rk0959",
+  "code": "RK0959",
+  "n": "Jabón Líquido Sachet 1000ml",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 2100,
+  "stock": 2
+ },
+ {
+  "id": "antigrasa-virutex-gatillo-500ml-rk0968",
+  "code": "RK0968",
+  "n": "Antigrasa Virutex Gatillo 500ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 2700,
+  "stock": 2
+ },
+ {
+  "id": "winnex-desengrasante-500ml-rk0985",
+  "code": "RK0985",
+  "n": "Winnex Desengrasante 500ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 2300,
+  "stock": 2
+ },
+ {
+  "id": "higienico-suan-d-h-4x20mts-rk0989",
+  "code": "RK0989",
+  "n": "Higiénico Suan D/H 4x20mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1300,
+  "stock": 2
+ },
+ {
+  "id": "limpiador-de-inodoro-virutex-250ml-rk0999",
+  "code": "RK0999",
+  "n": "Limpiador de Inodoro Virutex 250ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 1550,
+  "stock": 2
+ },
+ {
+  "id": "repuesto-de-mopa-seca-60cm-rk0121",
+  "code": "RK0121",
+  "n": "Repuesto de Mopa Seca 60cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 6400,
+  "stock": 1
+ },
+ {
+  "id": "repuesto-mango-tiburon-amarillo-rk0123",
+  "code": "RK0123",
+  "n": "Repuesto Mango Tiburon Amarillo",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 7000,
+  "stock": 1
+ },
+ {
+  "id": "repuesto-mango-mopa-seca-rk0125",
+  "code": "RK0125",
+  "n": "Repuesto Mango Mopa Seca",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 8300,
+  "stock": 1
+ },
+ {
+  "id": "trapero-blanco-con-ojal-50x70-rk0129",
+  "code": "RK0129",
+  "n": "Trapero Blanco con Ojal 50x70",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1200,
+  "stock": 1
+ },
+ {
+  "id": "pad-3m-17-rk0137",
+  "code": "RK0137",
+  "n": "Pad 3M 17\"",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 9650,
+  "stock": 1
+ },
+ {
+  "id": "guante-amarillo-talla-m-rk0142",
+  "code": "RK0142",
+  "n": "Guante Amarillo Talla M",
+  "c": "aseo",
+  "s": "Guantes",
+  "p": 1200,
+  "stock": 1
+ },
+ {
+  "id": "cono-naranjo-36-2-cintas-refl-b-goma-rk0157",
+  "code": "RK0157",
+  "n": "Cono Naranjo 36\" 2 Cintas Refl B/GOMA",
+  "c": "vial",
+  "s": "Conos y accesorios",
+  "p": 13500,
+  "stock": 1
+ },
+ {
+  "id": "toalla-dh-suan-3x12mts-rk0183",
+  "code": "RK0183",
+  "n": "Toalla Dh Suan 3x12mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1500,
+  "stock": 1
+ },
+ {
+  "id": "renovador-de-goma-30-negro-1lts-rk0193",
+  "code": "RK0193",
+  "n": "Renovador de Goma 30% Negro 1lts",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 4800,
+  "stock": 1
+ },
+ {
+  "id": "basurero-20lts-pedal-central-rojo-rk0219",
+  "code": "RK0219",
+  "n": "Basurero 20lts Pedal Central Rojo",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 22000,
+  "stock": 1
+ },
+ {
+  "id": "pano-de-sacudir-naranjo-rk0305",
+  "code": "RK0305",
+  "n": "Paño de Sacudir Naranjo",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 700,
+  "stock": 1
+ },
+ {
+  "id": "insecticida-killer-360cc-rk0318",
+  "code": "RK0318",
+  "n": "Insecticida Killer 360cc",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 3000,
+  "stock": 1
+ },
+ {
+  "id": "kit-squeegee-45cm-rk0330",
+  "code": "RK0330",
+  "n": "Kit Squeegee 45cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 5400,
+  "stock": 1
+ },
+ {
+  "id": "guante-nitrilo-s-caja-100-uni-rk0341",
+  "code": "RK0341",
+  "n": "Guante Nitrilo S Caja 100 Uni",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 4900,
+  "stock": 1
+ },
+ {
+  "id": "cloro-liquido-igenix-1lt-rk0352",
+  "code": "RK0352",
+  "n": "Cloro Líquido Igenix 1lt",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 1100,
+  "stock": 1
+ },
+ {
+  "id": "cinta-gris-multiproposito-50mmx50m-rk0393",
+  "code": "RK0393",
+  "n": "Cinta Gris Multiproposito 50MMx50M",
+  "c": "construccion",
+  "s": "Cintas",
+  "p": 8600,
+  "stock": 1
+ },
+ {
+  "id": "renovador-de-goma-negro-5lt-rk0394",
+  "code": "RK0394",
+  "n": "Renovador de Goma Negro 5lt",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 12000,
+  "stock": 1
+ },
+ {
+  "id": "diecon-gel-5lts-mas-recarga-rk0398",
+  "code": "RK0398",
+  "n": "Diecon-gel 5lts Mas Recarga",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "gel-antisarro-5lts-rk0400",
+  "code": "RK0400",
+  "n": "Gel Antisarro 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 10300,
+  "stock": 1
+ },
+ {
+  "id": "desodorante-ambiental-poett-rk0407",
+  "code": "RK0407",
+  "n": "Desodorante Ambiental Poett",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 2400,
+  "stock": 1
+ },
+ {
+  "id": "lavaloza-tried-concentrado-5lts-rk0410",
+  "code": "RK0410",
+  "n": "Lavaloza Tried Concentrado 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "desengrasante-stronger-5lt-rk0417",
+  "code": "RK0417",
+  "n": "Desengrasante Stronger 5lt",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "guante-multiuso-virutex-m-rk0432",
+  "code": "RK0432",
+  "n": "Guante Multiuso Virutex M",
+  "c": "aseo",
+  "s": "Guantes",
+  "p": 3400,
+  "stock": 1
+ },
+ {
+  "id": "escobilla-wc-rk0435",
+  "code": "RK0435",
+  "n": "Escobilla WC",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2100,
+  "stock": 1
+ },
+ {
+  "id": "jabon-liquido-900ml-rk0454",
+  "code": "RK0454",
+  "n": "Jabón Líquido 900ml",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 1357,
+  "stock": 1
+ },
+ {
+  "id": "protector-solar-simonds-fact-50-200ml-rk0456",
+  "code": "RK0456",
+  "n": "Protector Solar Simonds Fact +50 200ml",
+  "c": "aseo",
+  "s": "Higiene personal",
+  "p": 4900,
+  "stock": 1
+ },
+ {
+  "id": "shampoo-alfombra-tapices-5lts-rk0470",
+  "code": "RK0470",
+  "n": "Shampoo Alfombra Tapices 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 9400,
+  "stock": 1
+ },
+ {
+  "id": "cera-acrilica-5lts-klapp-rk0506",
+  "code": "RK0506",
+  "n": "Cera Acrílica 5lts Klapp",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 36590,
+  "stock": 1
+ },
+ {
+  "id": "sabanilla-2x48mts-rk0559",
+  "code": "RK0559",
+  "n": "Sabanilla 2x48mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 6000,
+  "stock": 1
+ },
+ {
+  "id": "esponja-mago-pads-virutex-x6-rk0425",
+  "code": "RK0425",
+  "n": "Esponja Mago Pads Virutex x6",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 1500,
+  "stock": 1
+ },
+ {
+  "id": "cloro-impeke-2lts-rk0577",
+  "code": "RK0577",
+  "n": "Cloro Impeke 2lts",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 2300,
+  "stock": 1
+ },
+ {
+  "id": "papelero-blanco-c-t-vaiven-rk0594",
+  "code": "RK0594",
+  "n": "Papelero Blanco C/T Vaiven",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 5550,
+  "stock": 1
+ },
+ {
+  "id": "pulverizador-2lt-b-metal-rk0599",
+  "code": "RK0599",
+  "n": "Pulverizador 2lt B/ Metal",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "balde-plastico-11lt-graduado-rk0603",
+  "code": "RK0603",
+  "n": "Balde PLASTICO-11lt Graduado",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2400,
+  "stock": 1
+ },
+ {
+  "id": "limpiavidrios-optimus-5lts-rk0622",
+  "code": "RK0622",
+  "n": "Limpiavidrios Optimus 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "caja-de-panuelos-desechables-elite-x90-rk0628",
+  "code": "RK0628",
+  "n": "Caja de Pañuelos Desechables Elite x90",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1600,
+  "stock": 1
+ },
+ {
+  "id": "cloro-gel-optimus-5lts-rk0630",
+  "code": "RK0630",
+  "n": "Cloro Gel Optimus 5lts",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 8600,
+  "stock": 1
+ },
+ {
+  "id": "jabon-desengrasante-mecanico-5lts-rk0634",
+  "code": "RK0634",
+  "n": "Jabón Desengrasante Mecánico 5lts",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 15400,
+  "stock": 1
+ },
+ {
+  "id": "papel-fotocopia-carta-500hj-rk0639",
+  "code": "RK0639",
+  "n": "Papel Fotocopia Carta 500hj",
+  "c": "otros",
+  "s": "Oficina",
+  "p": 3800,
+  "stock": 1
+ },
+ {
+  "id": "tira-x6-mago-pads-c-jabon-virutex-rk0644",
+  "code": "RK0644",
+  "n": "Tira x6 Mago Pads C/JABON Virutex",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 1700,
+  "stock": 1
+ },
+ {
+  "id": "higienico-universal-tork-48x50mts-hi55007",
+  "code": "HI55007",
+  "n": "Higiénico Universal Tork 48x50mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "pila-duracell-aaa-rk0654",
+  "code": "RK0654",
+  "n": "Pila Duracell AAA",
+  "c": "otros",
+  "s": "Oficina",
+  "p": 0,
+  "stock": 1,
+  "img": "/productos/rk0654.webp",
+  "w": 207,
+  "h": 369
+ },
+ {
+  "id": "caja-toalla-interfoliada-reyked-18x200h-rk0656",
+  "code": "RK0656",
+  "n": "Caja Toalla Interfoliada Reyked 18x200H",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "higienico-suan-24x20mts-rk0686",
+  "code": "RK0686",
+  "n": "Higiénico Suan 24x20mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 9100,
+  "stock": 1
+ },
+ {
+  "id": "antibac-desinfectante-spray-220cc-rk0697",
+  "code": "RK0697",
+  "n": "Antibac Desinfectante Spray 220cc",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 2900,
+  "stock": 1
+ },
+ {
+  "id": "azucar-blanca-1kg-rk0701",
+  "code": "RK0701",
+  "n": "Azucar Blanca 1kg",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 1300,
+  "stock": 1
+ },
+ {
+  "id": "espejo-convexo-60cm-soporte-rk0702",
+  "code": "RK0702",
+  "n": "Espejo Convexo 60cm + Soporte",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 53000,
+  "stock": 1
+ },
+ {
+  "id": "detergente-polvo-virginia-2-5kg-rk0890",
+  "code": "RK0890",
+  "n": "Detergente Polvo Virginia 2,5kg",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 4600,
+  "stock": 1
+ },
+ {
+  "id": "d-ambiental-free-spirit-1lts-gatillo-rk0891",
+  "code": "RK0891",
+  "n": "D-ambiental Free Spirit 1lts Gatillo",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "d-ambiental-drak-intense-1lts-gatillo-rk0892",
+  "code": "RK0892",
+  "n": "D-ambiental Drak Intense 1lts Gatillo",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 3700,
+  "stock": 1
+ },
+ {
+  "id": "barrera-de-proteccion-vertical-60cm-rk0904",
+  "code": "RK0904",
+  "n": "Barrera de Protección Vertical 60cm",
+  "c": "vial",
+  "s": "Barreras",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "jabon-elite-classic-5lts-rk0911",
+  "code": "RK0911",
+  "n": "Jabón Elite Classic 5lts",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 9600,
+  "stock": 1
+ },
+ {
+  "id": "enduzante-stevia-iansa-250ml-rk0917",
+  "code": "RK0917",
+  "n": "Enduzante Stevia Iansa 250ml",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "renovador-de-goma-optimus-5lts-rk0945",
+  "code": "RK0945",
+  "n": "Renovador de Goma Optimus 5lts",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "desodorante-amb-sandia-1l-rk0953",
+  "code": "RK0953",
+  "n": "Desodorante Amb Sandia 1L",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "guante-nitrilo-negro-100un-talla-s-rk0964",
+  "code": "RK0964",
+  "n": "Guante Nitrilo Negro 100un Talla S",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 4900,
+  "stock": 1
+ },
+ {
+  "id": "balde-de-10lts-rk0970",
+  "code": "RK0970",
+  "n": "Balde de 10lts",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 4800,
+  "stock": 1
+ },
+ {
+  "id": "caja-pad-5x17-rk0977",
+  "code": "RK0977",
+  "n": "Caja Pad 5x17\"",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "winnex-lustra-muebles-aerosol-400ml-rk0982",
+  "code": "RK0982",
+  "n": "Winnex Lustra Muebles Aerosol 400ml",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "winnex-limpiador-multiuso-900ml-rk0983",
+  "code": "RK0983",
+  "n": "Winnex Limpiador Multiuso 900ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 0,
+  "stock": 1
+ },
+ {
+  "id": "winnex-desodorante-ambiental-250ml-rk0987",
+  "code": "RK0987",
+  "n": "Winnex Desodorante Ambiental 250ml",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 2700,
+  "stock": 1
+ },
+ {
+  "id": "higienico-elite-d-h-8x50mts-rk1005",
+  "code": "RK1005",
+  "n": "Higiénico Elite D/H 8x50mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 7500,
+  "stock": 1
+ },
+ {
+  "id": "pala-con-banda-teddy-rk1011",
+  "code": "RK1011",
+  "n": "Pala con Banda Teddy",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3200,
+  "stock": 1
+ },
+ {
+  "id": "alcohol-gel-topico-prolim-1-lt-70-isp-2548c-1-20-rk0101",
+  "code": "RK0101",
+  "n": "Alcohol Gel Topico Prolim 1 LT-70% ISP 2548C-1/20",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 4100,
+  "stock": 0
+ },
+ {
+  "id": "alcohol-desnaturalizado-5lt-70-rk0104",
+  "code": "RK0104",
+  "n": "Alcohol Desnaturalizado 5lt 70%",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 19100,
+  "stock": 0
+ },
+ {
+  "id": "lavaloza-ultra-limon-5lt-rk0113",
+  "code": "RK0113",
+  "n": "Lavaloza Ultra Limon 5lt",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 7900,
+  "stock": 0
+ },
+ {
+  "id": "repuesto-mopa-rayon-160z-rk0120",
+  "code": "RK0120",
+  "n": "Repuesto Mopa Rayon 160Z",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2700,
+  "stock": 0
+ },
+ {
+  "id": "repuesto-mango-clip-humeda-rk0124",
+  "code": "RK0124",
+  "n": "Repuesto Mango Clip Humeda",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 7400,
+  "stock": 0
+ },
+ {
+  "id": "virutilla-dorada-rk0131",
+  "code": "RK0131",
+  "n": "Virutilla Dorada",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 550,
+  "stock": 0
+ },
+ {
+  "id": "secapiso-plastico-45cm-rk0135",
+  "code": "RK0135",
+  "n": "Secapiso Plástico 45cm",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 10700,
+  "stock": 0
+ },
+ {
+  "id": "virutex-balde-con-estrujador-14lts-rk0140",
+  "code": "RK0140",
+  "n": "Virutex Balde con Estrujador 14lts",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 9700,
+  "stock": 0
+ },
+ {
+  "id": "guante-amarillo-talla-s-rk0141",
+  "code": "RK0141",
+  "n": "Guante Amarillo Talla S",
+  "c": "aseo",
+  "s": "Guantes",
+  "p": 1200,
+  "stock": 0
+ },
+ {
+  "id": "guante-amarillo-talla-l-rk0143",
+  "code": "RK0143",
+  "n": "Guante Amarillo Talla L",
+  "c": "aseo",
+  "s": "Guantes",
+  "p": 1200,
+  "stock": 0
+ },
+ {
+  "id": "igenix-desinfectante-spray-360cc-rk0176",
+  "code": "RK0176",
+  "n": "Igenix Desinfectante Spray 360cc",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 3100,
+  "stock": 0
+ },
+ {
+  "id": "lustra-mueble-500ml-rk0179",
+  "code": "RK0179",
+  "n": "Lustra Mueble 500ml",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 2769,
+  "stock": 0
+ },
+ {
+  "id": "pulverizador-500ml-rk0187",
+  "code": "RK0187",
+  "n": "Pulverizador 500ml",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2000,
+  "stock": 0
+ },
+ {
+  "id": "dispensador-de-papel-toalla-rk0186",
+  "code": "RK0186",
+  "n": "Dispensador de Papel Toalla",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 45000,
+  "stock": 0
+ },
+ {
+  "id": "cono-naranjo-28-2-cintas-refl-s-base-rk0194",
+  "code": "RK0194",
+  "n": "Cono Naranjo 28\" 2 Cintas Refl S/BASE",
+  "c": "vial",
+  "s": "Conos y accesorios",
+  "p": 8000,
+  "stock": 0
+ },
+ {
+  "id": "mascarilla-kids-kn95-rk0209",
+  "code": "RK0209",
+  "n": "Mascarilla Kids KN95",
+  "c": "industrial",
+  "s": "Mascarillas y protección facial",
+  "p": 3209,
+  "stock": 0
+ },
+ {
+  "id": "mascarilla-kn95-gris-rk0210",
+  "code": "RK0210",
+  "n": "Mascarilla KN95 Gris",
+  "c": "industrial",
+  "s": "Mascarillas y protección facial",
+  "p": 1800,
+  "stock": 0
+ },
+ {
+  "id": "mascarilla-3-pliegle-uso-medico-blanca-50un-rk0211",
+  "code": "RK0211",
+  "n": "Mascarilla 3 Pliegle Uso Medico Blanca 50un",
+  "c": "industrial",
+  "s": "Mascarillas y protección facial",
+  "p": 2200,
+  "stock": 0
+ },
+ {
+  "id": "dispensador-jabon-automatico-700ml-rk0213",
+  "code": "RK0213",
+  "n": "Dispensador Jabón Automático 700ml",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 22923,
+  "stock": 0
+ },
+ {
+  "id": "baliza-destellante-solar-led-amarillo-rk0217",
+  "code": "RK0217",
+  "n": "Baliza Destellante Solar LED Amarillo",
+  "c": "vial",
+  "s": "Balizas y señalización",
+  "p": 22000,
+  "stock": 0
+ },
+ {
+  "id": "balde-toalla-desinfectantes-400-un-igenix-rk0222",
+  "code": "RK0222",
+  "n": "Balde Toalla Desinfectantes 400 Un Igenix",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 22310,
+  "stock": 0
+ },
+ {
+  "id": "clorinda-tradicional-1lts-rk0224",
+  "code": "RK0224",
+  "n": "Clorinda Tradicional 1lts",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 1950,
+  "stock": 0
+ },
+ {
+  "id": "limpia-inodoro-sapolio-azul-500ml-rk0233",
+  "code": "RK0233",
+  "n": "Limpia Inodoro Sapolio Azul 500ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 2000,
+  "stock": 0
+ },
+ {
+  "id": "toalla-tork-interfoliada-200hj-rk0247",
+  "code": "RK0247",
+  "n": "Toalla Tork Interfoliada 200hj",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 2900,
+  "stock": 0
+ },
+ {
+  "id": "jabon-liquido-arom-750ml-rk0257",
+  "code": "RK0257",
+  "n": "Jabón Líquido Arom 750ml",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 1720,
+  "stock": 0
+ },
+ {
+  "id": "bolsa-de-basura-industrial-140x140-paq-10-rk0319",
+  "code": "RK0319",
+  "n": "Bolsa de Basura Industrial 140x140 Paq 10",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 8360,
+  "stock": 0
+ },
+ {
+  "id": "guante-latex-m-caja-100-uni-rk0339",
+  "code": "RK0339",
+  "n": "Guante Latex M Caja 100 Uni",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 6900,
+  "stock": 0
+ },
+ {
+  "id": "guante-nitrilo-m-caja-100-uni-rk0370",
+  "code": "RK0370",
+  "n": "Guante Nitrilo M Caja 100 Uni",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 5200,
+  "stock": 0
+ },
+ {
+  "id": "quix-lavaloza-750cc-rk0371",
+  "code": "RK0371",
+  "n": "Quix Lavaloza 750cc",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 2600,
+  "stock": 0
+ },
+ {
+  "id": "escobillon-impeke-rk0372",
+  "code": "RK0372",
+  "n": "Escobillon Impeke",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2600,
+  "stock": 0
+ },
+ {
+  "id": "guante-multiuso-virutex-l-rk0433",
+  "code": "RK0433",
+  "n": "Guante Multiuso Virutex L",
+  "c": "aseo",
+  "s": "Guantes",
+  "p": 3400,
+  "stock": 0
+ },
+ {
+  "id": "lente-spy-flex-claro-steelpro-rk0438",
+  "code": "RK0438",
+  "n": "Lente Spy-flex Claro Steelpro",
+  "c": "industrial",
+  "s": "Cabeza, ojos y oídos",
+  "p": 1399,
+  "stock": 0
+ },
+ {
+  "id": "trapero-virutex-doble-c-ojal-50x50-rk0442",
+  "code": "RK0442",
+  "n": "Trapero Virutex Doble C/OJAL 50x50",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2500,
+  "stock": 0
+ },
+ {
+  "id": "panos-multiuso-ultra-virutex-rk0444",
+  "code": "RK0444",
+  "n": "Paños Multiuso Ultra Virutex",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 650,
+  "stock": 0
+ },
+ {
+  "id": "escobillon-municipal-45cm-virutex-pro-rk0445",
+  "code": "RK0445",
+  "n": "Escobillon Municipal 45cm Virutex Pro",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 24990,
+  "stock": 0
+ },
+ {
+  "id": "toalla-elite-classic-2x250mts-rk0457",
+  "code": "RK0457",
+  "n": "Toalla Elite Classic 2x250mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 12400,
+  "stock": 0
+ },
+ {
+  "id": "carro-porta-utiles-rk0460",
+  "code": "RK0460",
+  "n": "Carro Porta Utiles",
+  "c": "otros",
+  "s": "Oficina",
+  "p": 83300,
+  "stock": 0
+ },
+ {
+  "id": "lomo-de-toro-100x30x5cm-neg-amar-rk0481",
+  "code": "RK0481",
+  "n": "Lomo de Toro 100x30x5cm NEG/AMAR",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 28100,
+  "stock": 0
+ },
+ {
+  "id": "buzo-desechable-talla-m-rk0485",
+  "code": "RK0485",
+  "n": "Buzo Desechable Talla M",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 2200,
+  "stock": 0
+ },
+ {
+  "id": "toallas-babysec-premium-45un-rk0499",
+  "code": "RK0499",
+  "n": "Toallas Babysec Premium 45un",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1162,
+  "stock": 0
+ },
+ {
+  "id": "grada-pvc-120cmx32cmx4mm-rk0510",
+  "code": "RK0510",
+  "n": "Grada PVC 120CMx32CMx4mm",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 19687,
+  "stock": 0
+ },
+ {
+  "id": "lustra-muebles-aerosol-rk0511",
+  "code": "RK0511",
+  "n": "Lustra Muebles Aerosol",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 4317,
+  "stock": 0
+ },
+ {
+  "id": "hito-delineador-base-115cm-naranjo-2-cintas-rk0512",
+  "code": "RK0512",
+  "n": "Hito Delineador Base 115cm Naranjo 2 Cintas",
+  "c": "vial",
+  "s": "Hitos y tachas",
+  "p": 30120,
+  "stock": 0
+ },
+ {
+  "id": "cadena-plastica-50-mt-bicolor-roj-blan-rk0513",
+  "code": "RK0513",
+  "n": "Cadena Plástica 50 Mt Bicolor ROJ/BLAN",
+  "c": "vial",
+  "s": "Balizas y señalización",
+  "p": 26100,
+  "stock": 0
+ },
+ {
+  "id": "poett-limpia-pisos-900ml-rk0514",
+  "code": "RK0514",
+  "n": "Poett Limpia Pisos 900ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 2000,
+  "stock": 0
+ },
+ {
+  "id": "barre-hojas-plastico-rk0515",
+  "code": "RK0515",
+  "n": "Barre Hojas Plástico",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 7676,
+  "stock": 0
+ },
+ {
+  "id": "adhesivo-gobusa-lata-3-8-lts-rk0516",
+  "code": "RK0516",
+  "n": "Adhesivo Gobusa Lata 3.8 Lts",
+  "c": "construccion",
+  "s": "Adhesivos",
+  "p": 40242,
+  "stock": 0
+ },
+ {
+  "id": "pizarra-blanca-050x70-acrilica-magnetica-rk0549",
+  "code": "RK0549",
+  "n": "Pizarra Blanca 050x70 Acrílica Magnética",
+  "c": "otros",
+  "s": "Oficina",
+  "p": 15280,
+  "stock": 0
+ },
+ {
+  "id": "te-lipton-yellow-label-rk0551",
+  "code": "RK0551",
+  "n": "Te Lipton Yellow Label",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 6193,
+  "stock": 0
+ },
+ {
+  "id": "tope-de-estac-90x15x10cm-neg-amar-rk0553",
+  "code": "RK0553",
+  "n": "Tope de Estac. 90x15x10cm NEG/AMAR",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 18200,
+  "stock": 0
+ },
+ {
+  "id": "tope-de-estac-180x15x10cm-neg-amar-rk0554",
+  "code": "RK0554",
+  "n": "Tope de Estac. 180x15x10cm NEG/AMAR",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 54800,
+  "stock": 0
+ },
+ {
+  "id": "espejo-convexo-100cm-conector-rk0556",
+  "code": "RK0556",
+  "n": "Espejo Convexo 100cm + Conector",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 113114,
+  "stock": 0
+ },
+ {
+  "id": "prot-pilar-estac-80x10x1cm-neg-amar-rk0557",
+  "code": "RK0557",
+  "n": "Prot. Pilar Estac. 80x10x1cm NEG/AMAR",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 9000,
+  "stock": 0
+ },
+ {
+  "id": "suavizante-fuzol-primavera-2lt-rk0561",
+  "code": "RK0561",
+  "n": "Suavizante Fuzol Primavera 2lt",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 2055,
+  "stock": 0
+ },
+ {
+  "id": "guante-nitrilo-azul-xl-100-uni-rk0562",
+  "code": "RK0562",
+  "n": "Guante Nitrilo Azul XL 100 Uni",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 4400,
+  "stock": 0
+ },
+ {
+  "id": "limpiador-multiproposito-con-gatillo-the-pink-stuff-750ml-rk0569",
+  "code": "RK0569",
+  "n": "Limpiador Multiproposito con Gatillo The Pink Stuff 750ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 4762,
+  "stock": 0
+ },
+ {
+  "id": "pasta-pulidora-the-pink-stuff-850g-rk0570",
+  "code": "RK0570",
+  "n": "Pasta Pulidora The Pink Stuff 850G",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 7995,
+  "stock": 0
+ },
+ {
+  "id": "toallitas-desinfectantes-clorox-30un-rk0578",
+  "code": "RK0578",
+  "n": "Toallitas Desinfectantes Clorox 30un",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 3600,
+  "stock": 0
+ },
+ {
+  "id": "detergente-ariel-1-8-liquido-rk0580",
+  "code": "RK0580",
+  "n": "Detergente Ariel 1.8 Líquido",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 9500,
+  "stock": 0
+ },
+ {
+  "id": "savisante-soft-doypack-900ml-rk0581",
+  "code": "RK0581",
+  "n": "Savisante Soft Doypack 900ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 1600,
+  "stock": 0
+ },
+ {
+  "id": "te-ceylan-premium-20-bolsita-rk0582",
+  "code": "RK0582",
+  "n": "Te Ceylan Premium 20 Bolsita",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 1800,
+  "stock": 0
+ },
+ {
+  "id": "te-supremo-ceylan-premium-100-bol-rk0583",
+  "code": "RK0583",
+  "n": "Te Supremo Ceylan Premium 100 Bol",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 6800,
+  "stock": 0
+ },
+ {
+  "id": "nescafe-tradicion-170g-rk0584",
+  "code": "RK0584",
+  "n": "Nescafe Tradicion 170G",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 9850,
+  "stock": 0
+ },
+ {
+  "id": "azucar-blanca-900g-rk0585",
+  "code": "RK0585",
+  "n": "Azucar Blanca 900G",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 1550,
+  "stock": 0
+ },
+ {
+  "id": "limpia-pisos-5lts-rk0586",
+  "code": "RK0586",
+  "n": "Limpia Pisos 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 5400,
+  "stock": 0
+ },
+ {
+  "id": "baston-retractil-seguridad-personal-de-64cm-rk0588",
+  "code": "RK0588",
+  "n": "Bastón Retractil Seguridad Personal de 64cm",
+  "c": "industrial",
+  "s": "Seguridad personal",
+  "p": 12800,
+  "stock": 0
+ },
+ {
+  "id": "poett-limpiador-4lts-rk0589",
+  "code": "RK0589",
+  "n": "Poett Limpiador 4lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 9900,
+  "stock": 0
+ },
+ {
+  "id": "guante-esteril-50pares-rk0590",
+  "code": "RK0590",
+  "n": "Guante Esteril 50pares",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 30800,
+  "stock": 0
+ },
+ {
+  "id": "gamela-conica-roja-rk0592",
+  "code": "RK0592",
+  "n": "Gamela Conica Roja",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 2500,
+  "stock": 0
+ },
+ {
+  "id": "papelero-gris-25lts-c-t-vaiven-rk0593",
+  "code": "RK0593",
+  "n": "Papelero Gris 25lts C/T Vaiven",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 9500,
+  "stock": 0
+ },
+ {
+  "id": "lavatorio-red-15-lts-bicolor-rk0595",
+  "code": "RK0595",
+  "n": "Lavatorio Red 15 Lts Bicolor",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3100,
+  "stock": 0
+ },
+ {
+  "id": "pala-c-escobilla-22cm-apro-rk0597",
+  "code": "RK0597",
+  "n": "Pala C/ Escobilla 22cm Apro",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3100,
+  "stock": 0
+ },
+ {
+  "id": "lavatorio-17-ltrs-c-asa-gris-rk0598",
+  "code": "RK0598",
+  "n": "Lavatorio 17 Ltrs. C/ASA Gris",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2500,
+  "stock": 0
+ },
+ {
+  "id": "papelero-rejilla-metal-26x27cm-negro-rk0600",
+  "code": "RK0600",
+  "n": "Papelero Rejilla METAL/26x27cm Negro",
+  "c": "contenedores",
+  "s": "Basureros y papeleros",
+  "p": 5500,
+  "stock": 0
+ },
+ {
+  "id": "plumero-chascon-m-grueso-rk0601",
+  "code": "RK0601",
+  "n": "Plumero Chascon M/GRUESO",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 4500,
+  "stock": 0
+ },
+ {
+  "id": "higienico-scott-22mtsx24-rk0608",
+  "code": "RK0608",
+  "n": "Higiénico Scott 22MTSx24",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 8400,
+  "stock": 0
+ },
+ {
+  "id": "guante-nitrilo-negro-5-5gr-topsafe-100un-rk0609",
+  "code": "RK0609",
+  "n": "Guante Nitrilo Negro 5,5gr Topsafe 100un",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 7400,
+  "stock": 0
+ },
+ {
+  "id": "recarga-glade-automatico-rk0611",
+  "code": "RK0611",
+  "n": "Recarga Glade Automático",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 10200,
+  "stock": 0
+ },
+ {
+  "id": "escobillon-municipal-30cm-con-mango-rk0612",
+  "code": "RK0612",
+  "n": "Escobillon Municipal 30cm con Mango",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 7800,
+  "stock": 0
+ },
+ {
+  "id": "cuchara-sopera-100un-rk0616",
+  "code": "RK0616",
+  "n": "Cuchara Sopera 100un",
+  "c": "otros",
+  "s": "Cafetería",
+  "p": 1600,
+  "stock": 0
+ },
+ {
+  "id": "cloro-optimus-5lts-rk0620",
+  "code": "RK0620",
+  "n": "Cloro Optimus 5lts",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 3950,
+  "stock": 0
+ },
+ {
+  "id": "detergente-ropa-c-suavisante-5lts-rk0621",
+  "code": "RK0621",
+  "n": "Detergente Ropa C/SUAVISANTE 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 6900,
+  "stock": 0
+ },
+ {
+  "id": "cotidian-pants-adulto-p-m-x16-rk0626",
+  "code": "RK0626",
+  "n": "Cotidian Pants Adulto P-m x16",
+  "c": "aseo",
+  "s": "Higiene personal",
+  "p": 18300,
+  "stock": 0
+ },
+ {
+  "id": "jabon-glicerina-optimus-5lts-rk0629",
+  "code": "RK0629",
+  "n": "Jabón Glicerina Optimus 5lts",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 7400,
+  "stock": 0
+ },
+ {
+  "id": "pad-3m-13-rk0631",
+  "code": "RK0631",
+  "n": "Pad 3M 13\"",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 5100,
+  "stock": 0
+ },
+ {
+  "id": "guantes-g40-nitrilo-azul-rk0632",
+  "code": "RK0632",
+  "n": "Guantes G40 Nitrilo Azul",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 6300,
+  "stock": 0
+ },
+ {
+  "id": "cinta-reflectiva-hio-amarillo-negro-50mmx45-72-rk0633",
+  "code": "RK0633",
+  "n": "Cinta Reflectiva Hio Amarillo Negro 50MMx45,72",
+  "c": "vial",
+  "s": "Cintas de demarcación",
+  "p": 30300,
+  "stock": 0
+ },
+ {
+  "id": "espejo-convexo-80cm-conector-exterior-rk0638",
+  "code": "RK0638",
+  "n": "Espejo Convexo 80cm + Conector. Exterior",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 62000,
+  "stock": 0
+ },
+ {
+  "id": "plancha-antifatiga-y-drenaje-90x90x12mm-rk0640",
+  "code": "RK0640",
+  "n": "Plancha Antifatiga y Drenaje 90x90x12mm",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 44000,
+  "stock": 0
+ },
+ {
+  "id": "toalla-premium-d-h-6x150-mt-to70021",
+  "code": "TO70021",
+  "n": "Toalla Premium D/H 6x150 Mt",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 56000,
+  "stock": 0
+ },
+ {
+  "id": "tork-toalla-advance-h-s-6x250mts-to70026",
+  "code": "TO70026",
+  "n": "Tork Toalla Advance H/S 6x250mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 75320,
+  "stock": 0
+ },
+ {
+  "id": "tork-toalla-interfoliada-d-h-16x200-hj-to70027",
+  "code": "TO70027",
+  "n": "Tork Toalla Interfoliada D/H 16x200 Hj",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 46450,
+  "stock": 0
+ },
+ {
+  "id": "tork-sabanilla-rollo-h-s-4x2x48mts-ro55013",
+  "code": "RO55013",
+  "n": "Tork Sabanilla Rollo H/S 4x2x48mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 34000,
+  "stock": 0
+ },
+ {
+  "id": "tork-higienico-jumbo-h-s-6x500-mts-hi55004",
+  "code": "HI55004",
+  "n": "Tork Higiénico Jumbo H/S 6x500 Mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 36550,
+  "stock": 0
+ },
+ {
+  "id": "tork-higienico-smartone-d-h-12x111-6-mts-hi70010",
+  "code": "HI70010",
+  "n": "Tork Higiénico Smartone D/H 12x111,6 Mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 55960,
+  "stock": 0
+ },
+ {
+  "id": "tira-x6-esponja-lisa-virutex-rk0643",
+  "code": "RK0643",
+  "n": "Tira x6 Esponja Lisa Virutex",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2750,
+  "stock": 0
+ },
+ {
+  "id": "confor-24x22mts-rk0645",
+  "code": "RK0645",
+  "n": "Confor 24x22mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 8700,
+  "stock": 0
+ },
+ {
+  "id": "higienico-tork-4x50mts-rk0652",
+  "code": "RK0652",
+  "n": "Higiénico Tork 4x50mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 2400,
+  "stock": 0
+ },
+ {
+  "id": "pila-duracell-aa-rk0653",
+  "code": "RK0653",
+  "n": "Pila Duracell AA",
+  "c": "otros",
+  "s": "Oficina",
+  "p": 1200,
+  "stock": 0
+ },
+ {
+  "id": "toalla-interfoliada-reyked-200h-d-rk0655",
+  "code": "RK0655",
+  "n": "Toalla Interfoliada Reyked 200H/D",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1800,
+  "stock": 0
+ },
+ {
+  "id": "clorinda-clorogel-900ml-rk0657",
+  "code": "RK0657",
+  "n": "Clorinda Clorogel 900ml",
+  "c": "aseo",
+  "s": "Desinfección",
+  "p": 2430,
+  "stock": 0
+ },
+ {
+  "id": "removedor-de-ceras-tremex-5lts-rk0658",
+  "code": "RK0658",
+  "n": "Removedor de Ceras Tremex 5lts",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 16800,
+  "stock": 0
+ },
+ {
+  "id": "cinta-multiuso-3m-2-x55mts-rk0659",
+  "code": "RK0659",
+  "n": "Cinta Multiuso 3M 2\"x55mts",
+  "c": "construccion",
+  "s": "Cintas",
+  "p": 16660,
+  "stock": 0
+ },
+ {
+  "id": "glade-aerosol-255ml-rk0663",
+  "code": "RK0663",
+  "n": "Glade Aerosol 255ml",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 2618,
+  "stock": 0
+ },
+ {
+  "id": "lomo-de-toro-90x30x5cm-negro-amar-rk0664",
+  "code": "RK0664",
+  "n": "Lomo de Toro 90x30x5cm Negro-amar",
+  "c": "industrial",
+  "s": "Espejos y reductores de velocidad",
+  "p": 25100,
+  "stock": 0
+ },
+ {
+  "id": "hito-vialidad-poliuretano-75cm-3-cintas-rk0665",
+  "code": "RK0665",
+  "n": "Hito Vialidad Poliuretano 75cm 3 Cintas",
+  "c": "vial",
+  "s": "Hitos y tachas",
+  "p": 14500,
+  "stock": 0
+ },
+ {
+  "id": "protector-solar-suntime-f50-1kg-rk0666",
+  "code": "RK0666",
+  "n": "Protector Solar Suntime F50 1kg",
+  "c": "aseo",
+  "s": "Higiene personal",
+  "p": 14500,
+  "stock": 0
+ },
+ {
+  "id": "wipe-uso-intensivo-rollo-bco-101-6-mts-400-panos-to86004",
+  "code": "TO86004",
+  "n": "Wipe Uso Intensivo Rollo Bco 101,6 Mts (400 Paños)",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 42483,
+  "stock": 0
+ },
+ {
+  "id": "pulverizador-de-espalda-reyked-16lts-rk0667",
+  "code": "RK0667",
+  "n": "Pulverizador de Espalda Reyked 16lts",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 26800,
+  "stock": 0
+ },
+ {
+  "id": "casco-seguridad-msa-rk0670",
+  "code": "RK0670",
+  "n": "Casco Seguridad MSA",
+  "c": "industrial",
+  "s": "Cabeza, ojos y oídos",
+  "p": 13400,
+  "stock": 0
+ },
+ {
+  "id": "jabon-mecanico-fast-orange-3-85lts-permatex-rk0671",
+  "code": "RK0671",
+  "n": "Jabón Mecánico Fast Orange 3.85lts Permatex",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 38500,
+  "stock": 0
+ },
+ {
+  "id": "renovador-de-neumatico-team-650cc-rk0672",
+  "code": "RK0672",
+  "n": "Renovador de Neumatico Team 650cc",
+  "c": "aseo",
+  "s": "Ceras, pisos y automotriz",
+  "p": 5100,
+  "stock": 0
+ },
+ {
+  "id": "cono-gel-arom-rk0673",
+  "code": "RK0673",
+  "n": "Cono Gel Arom",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 2300,
+  "stock": 0
+ },
+ {
+  "id": "arnes-eco-3-d-rojo-negro-sg-m-l-41102101-rk0677",
+  "code": "RK0677",
+  "n": "Arnes Eco 3 \"d\" ROJO/NEGRO Sg M/L 41102101",
+  "c": "industrial",
+  "s": "Trabajo en altura y derrames",
+  "p": 14100,
+  "stock": 0
+ },
+ {
+  "id": "cabo-vida-cinta-28-mm-tipo-y-c-escala-1-80-mts-rk0676",
+  "code": "RK0676",
+  "n": "Cabo Vida Cinta 28 Mm Tipo Y, C/ Escala 1.80 Mts",
+  "c": "industrial",
+  "s": "Trabajo en altura y derrames",
+  "p": 25300,
+  "stock": 0
+ },
+ {
+  "id": "casco-rescate-mta-abs-full-blanco-rk0678",
+  "code": "RK0678",
+  "n": "Casco Rescate Mta ABS Full Blanco",
+  "c": "industrial",
+  "s": "Cabeza, ojos y oídos",
+  "p": 13830,
+  "stock": 0
+ },
+ {
+  "id": "puntera-de-visita-fullgen-rec-cuero-rk0679",
+  "code": "RK0679",
+  "n": "Puntera de Visita Fullgen REC/CUERO",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 13730,
+  "stock": 0
+ },
+ {
+  "id": "jockey-legionario-azul-rk0682",
+  "code": "RK0682",
+  "n": "Jockey Legionario Azul",
+  "c": "industrial",
+  "s": "Cabeza, ojos y oídos",
+  "p": 2200,
+  "stock": 0
+ },
+ {
+  "id": "bolsa-de-basura-100x120x10un-rk0683",
+  "code": "RK0683",
+  "n": "Bolsa de Basura 100x120x10un",
+  "c": "aseo",
+  "s": "Bolsas de basura",
+  "p": 4100,
+  "stock": 0
+ },
+ {
+  "id": "pastilla-para-estanque-x4-rk0684",
+  "code": "RK0684",
+  "n": "Pastilla para Estanque x4",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 2900,
+  "stock": 0
+ },
+ {
+  "id": "guante-ansell-hyflex-11-727-rk0685",
+  "code": "RK0685",
+  "n": "Guante Ansell Hyflex 11-727",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 12200,
+  "stock": 0
+ },
+ {
+  "id": "cinta-antideslizante-negra-25mmx18mts-rk0688",
+  "code": "RK0688",
+  "n": "Cinta Antideslizante Negra 25MMx18mts",
+  "c": "construccion",
+  "s": "Cintas",
+  "p": 6200,
+  "stock": 0
+ },
+ {
+  "id": "hidrolavadora-agua-caliente-150bar-3000w-rk0690",
+  "code": "RK0690",
+  "n": "Hidrolavadora Agua Caliente 150BAR-3000W",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 2830000,
+  "stock": 0
+ },
+ {
+  "id": "barrera-de-proteccion-vertical-rk0694",
+  "code": "RK0694",
+  "n": "Barrera de Protección Vertical",
+  "c": "vial",
+  "s": "Barreras",
+  "p": 62000,
+  "stock": 0
+ },
+ {
+  "id": "barrera-de-proteccion-vertical-60cm-para-es-rk703",
+  "code": "RK703",
+  "n": "Barrera de Protección Vertical 60cm para Es",
+  "c": "vial",
+  "s": "Barreras",
+  "p": 62000,
+  "stock": 0
+ },
+ {
+  "id": "grada-estriada-121cmx32cmx5mm-negro-amarillo-rk0905",
+  "code": "RK0905",
+  "n": "Grada Estriada 121CMx32CMx5mm NEGRO/AMARILLO",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 20250,
+  "stock": 0
+ },
+ {
+  "id": "escobillon-virutex-sup-exterior-fibra-dura-rk0927",
+  "code": "RK0927",
+  "n": "Escobillon Virutex Sup Exterior Fibra Dura",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 6700,
+  "stock": 0
+ },
+ {
+  "id": "virutilla-de-acero-galvanizado-rk0929",
+  "code": "RK0929",
+  "n": "Virutilla de Acero Galvanizado",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 500,
+  "stock": 0
+ },
+ {
+  "id": "parche-curita-canberry-x30un-rk0931",
+  "code": "RK0931",
+  "n": "Parche Curita Canberry x30un",
+  "c": "aseo",
+  "s": "Higiene personal",
+  "p": 1700,
+  "stock": 0
+ },
+ {
+  "id": "desengrasante-optimus-5lts-rk0940",
+  "code": "RK0940",
+  "n": "Desengrasante Optimus 5lts",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 9600,
+  "stock": 0
+ },
+ {
+  "id": "protector-solar-leblon-f-50-90-grs-rk0942",
+  "code": "RK0942",
+  "n": "Protector Solar Leblon F/50 90 Grs",
+  "c": "aseo",
+  "s": "Higiene personal",
+  "p": 2100,
+  "stock": 0
+ },
+ {
+  "id": "barreraextensible-2-1mts-rojo-rk0944",
+  "code": "RK0944",
+  "n": "Barreraextensible 2.1mts Rojo",
+  "c": "vial",
+  "s": "Barreras",
+  "p": 67900,
+  "stock": 0
+ },
+ {
+  "id": "rollo-termico-80mmx80mm-x50un-rk0946",
+  "code": "RK0946",
+  "n": "Rollo Termico 80MMx80mm x50un",
+  "c": "otros",
+  "s": "Oficina",
+  "p": 53700,
+  "stock": 0
+ },
+ {
+  "id": "buzo-getpro-dese-line-rflex-1310-bicolor-t-xl-rk0949",
+  "code": "RK0949",
+  "n": "Buzo Getpro Dese Line Rflex 1310 Bicolor T-xl",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 2300,
+  "stock": 0
+ },
+ {
+  "id": "guante-nitrilo-naranja-8-0gr-50un-topsafe-rk0951",
+  "code": "RK0951",
+  "n": "Guante Nitrilo Naranja 8,0gr 50un Topsafe",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 8500,
+  "stock": 0
+ },
+ {
+  "id": "lentes-steelpro-nexis-claro-rk0954",
+  "code": "RK0954",
+  "n": "Lentes Steelpro Nexis Claro",
+  "c": "industrial",
+  "s": "Cabeza, ojos y oídos",
+  "p": 3100,
+  "stock": 0
+ },
+ {
+  "id": "mascara-medio-rostro-3m-6200-rk0955",
+  "code": "RK0955",
+  "n": "Mascara Medio Rostro 3M 6200",
+  "c": "industrial",
+  "s": "Mascarillas y protección facial",
+  "p": 15500,
+  "stock": 0
+ },
+ {
+  "id": "filtro-3m-2091-p100-p-part-y-p-ol-g-rk0956",
+  "code": "RK0956",
+  "n": "Filtro 3M 2091 P100 P/PART y P/OL G",
+  "c": "industrial",
+  "s": "Mascarillas y protección facial",
+  "p": 13300,
+  "stock": 0
+ },
+ {
+  "id": "kit-antiderrame-18lts-quimicos-rk0958",
+  "code": "RK0958",
+  "n": "Kit Antiderrame 18lts Quimicos",
+  "c": "industrial",
+  "s": "Trabajo en altura y derrames",
+  "p": 62000,
+  "stock": 0
+ },
+ {
+  "id": "difusor-glade-rk0963",
+  "code": "RK0963",
+  "n": "Difusor Glade",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 12000,
+  "stock": 0
+ },
+ {
+  "id": "guante-nitrilo-negro-100un-talla-xl-rk0965",
+  "code": "RK0965",
+  "n": "Guante Nitrilo Negro 100un Talla XL",
+  "c": "industrial",
+  "s": "Guantes",
+  "p": 4900,
+  "stock": 0
+ },
+ {
+  "id": "toalla-interfoliada-ovella-200hj-rk0966",
+  "code": "RK0966",
+  "n": "Toalla Interfoliada Ovella 200hj",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 2400,
+  "stock": 0
+ },
+ {
+  "id": "limpiavidrios-gatillo-500ml-rk0974",
+  "code": "RK0974",
+  "n": "Limpiavidrios Gatillo 500ml",
+  "c": "aseo",
+  "s": "Limpiadores y detergentes",
+  "p": 3000,
+  "stock": 0
+ },
+ {
+  "id": "chaleco-ref-amarillo-fluor-c-cierre-rk0976",
+  "code": "RK0976",
+  "n": "Chaleco Ref. Amarillo Fluor C/CIERRE",
+  "c": "industrial",
+  "s": "Ropa de protección",
+  "p": 2400,
+  "stock": 0
+ },
+ {
+  "id": "escobillon-int-multiuso-vtx-pro-rk0978",
+  "code": "RK0978",
+  "n": "Escobillon Int Multiuso Vtx Pro",
+  "c": "aseo",
+  "s": "Utensilios y equipos",
+  "p": 3630,
+  "stock": 0
+ },
+ {
+  "id": "limpiapies-13mmx120x100-con-bordes-rk0980",
+  "code": "RK0980",
+  "n": "Limpiapies 13MMx120x100 con Bordes",
+  "c": "construccion",
+  "s": "Pisos, gradas y limpiapiés",
+  "p": 35990,
+  "stock": 0
+ },
+ {
+  "id": "tork-toalla-jumbo-h-s-2x250mts-to70004",
+  "code": "TO70004",
+  "n": "Tork Toalla Jumbo H/S 2x250mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 18400,
+  "stock": 0
+ },
+ {
+  "id": "higienico-confort-una-hioja-4x40mts-rk0993",
+  "code": "RK0993",
+  "n": "Higiénico Confort UNA/HIOJA 4x40mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1700,
+  "stock": 0
+ },
+ {
+  "id": "toalla-win-roll-100mts-rk0994",
+  "code": "RK0994",
+  "n": "Toalla Win Roll 100mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 2750,
+  "stock": 0
+ },
+ {
+  "id": "toalla-ovella-expert-d-h-2x24mts-rk1008",
+  "code": "RK1008",
+  "n": "Toalla Ovella Expert D/H 2x24mts",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 1900,
+  "stock": 0
+ },
+ {
+  "id": "familand-shampoo-propoleo-sin-sal-750ml-rk1013",
+  "code": "RK1013",
+  "n": "Familand Shampoo Propoleo sin Sal 750ml",
+  "c": "aseo",
+  "s": "Higiene personal",
+  "p": 2200,
+  "stock": 0
+ },
+ {
+  "id": "jabon-cremoso-simonds-1lts-rk1014",
+  "code": "RK1014",
+  "n": "Jabón Cremoso Simonds 1lts",
+  "c": "aseo",
+  "s": "Jabones y dispensadores",
+  "p": 3200,
+  "stock": 0
+ },
+ {
+  "id": "higienico-confort-d-h-4x30mtsx12-rk1015",
+  "code": "RK1015",
+  "n": "Higiénico Confort D/H 4x30MTSx12",
+  "c": "aseo",
+  "s": "Papel y toallas",
+  "p": 23077,
+  "stock": 0
+ },
+ {
+  "id": "repelex-nf-15-aerosol-165cc-rk1018",
+  "code": "RK1018",
+  "n": "Repelex Nf 15 Aerosol 165cc",
+  "c": "aseo",
+  "s": "Ambientales e insecticidas",
+  "p": 6760,
+  "stock": 0,
+  "img": "/productos/rk1018.webp",
+  "w": 207,
+  "h": 369
+ }
+]

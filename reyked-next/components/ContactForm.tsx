@@ -2,7 +2,12 @@
 
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { WA, productoPorId } from "@/data/productos";
+import { WA, estadoProducto, productoPorId } from "@/data/productos";
+
+const mensajeProducto = (n: string, e: ReturnType<typeof estadoProducto>) =>
+  e === "agotado" ? `Hola Reyked, ¿cuándo tendrán disponible ${n}? Me interesa comprar ___ unidades.`
+  : e === "cotizar" ? `Hola Reyked, quiero cotizar ___ unidades de ${n}. ¿Cuál es el precio?`
+  : `Hola Reyked, quiero cotizar ___ unidades de ${n}. ¿Tienen precio por volumen?`;
 
 export function ContactForm() {
   const params = useSearchParams();
@@ -30,7 +35,7 @@ export function ContactForm() {
       <label className="f" htmlFor="cMail">Correo electrónico<input id="cMail" name="mail" type="email" autoComplete="email" required /></label>
       <label className="f" htmlFor="cMsg">Mensaje
         <textarea id="cMsg" name="msg" rows={4} placeholder="Cuéntanos qué necesitas y en qué cantidad"
-          defaultValue={prod ? `Hola Reyked, quiero cotizar ___ unidades de ${prod.n}. ¿Tienen precio por volumen?` : ""} />
+          defaultValue={prod ? mensajeProducto(prod.n, estadoProducto(prod)) : ""} />
       </label>
       <button className="btn primary" type="submit">Preparar consulta</button>
       <div className="fine" aria-live="polite">{out}</div>

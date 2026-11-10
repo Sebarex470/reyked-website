@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CATS } from "@/data/productos";
+import { CATS_ACTIVAS } from "@/data/productos";
 
 export function Footer() {
   return (
@@ -14,7 +14,7 @@ export function Footer() {
             <h4>Tienda</h4>
             <div id="footShop">
               <Link href="/tienda">Toda la tienda</Link>
-              {CATS.map((c) => (
+              {CATS_ACTIVAS.map((c) => (
                 <Link key={c.k} href={`/tienda/${c.k}`}>{c.n}</Link>
               ))}
             </div>
@@ -38,7 +38,7 @@ export function Footer() {
         </div>
         <div className="copy">
           <span>© 2026 Comercializadora Reyked</span>
-          <span>Propuesta de diseño: precios y textos de ejemplo</span>
+          <span>Propuesta de diseño: textos referenciales</span>
         </div>
       </div>
     </footer>

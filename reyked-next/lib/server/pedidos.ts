@@ -1,6 +1,6 @@
 import "server-only";
 import crypto from "node:crypto";
-import { IVA, productoPorId } from "@/data/productos";
+import { IVA, comprable, productoPorId } from "@/data/productos";
 import type { Ajustes, Pedido } from "@/lib/tipos";
 import { getStore } from "./store";
 
@@ -24,8 +24,9 @@ export async function armarPedido(body: unknown): Promise<Pedido | string> {
   for (const raw of b.items as { id?: unknown; q?: unknown }[]) {
     const p = typeof raw?.id === "string" ? productoPorId[raw.id] : undefined;
     const q = Number(raw?.q);
-    if (!p) return "Uno de los productos ya no está disponible.";
+    if (!p || !comprable(p)) return "Uno de los productos ya no está disponible.";
     if (!Number.isInteger(q) || q < 1 || q > 999) return "Cantidad inválida.";
+    if (q > p.stock) return `Solo quedan ${p.stock} unidades de "${p.n}".`;
     items.push({ id: p.id, n: p.n, q, p: p.p, costo: costos[p.id] ?? 0 });
   }
   const c = (b.cliente ?? {}) as Record<string, unknown>;

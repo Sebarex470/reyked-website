@@ -5,7 +5,7 @@ import { productoPorId } from "@/data/productos";
 import { useCart } from "@/context/CartContext";
 import { clp } from "@/lib/format";
 import { Crumbs } from "./Crumbs";
-import { Glyph } from "./Glyph";
+import { ProductImage } from "./ProductImage";
 
 /** Líneas del pedido (editables en el carrito, solo lectura en el checkout). */
 export function CartLines({ editable }: { editable: boolean }) {
@@ -17,7 +17,7 @@ export function CartLines({ editable }: { editable: boolean }) {
         const q = cart[k];
         return (
           <div className="line" key={k}>
-            <div className="g" aria-hidden="true"><Glyph g={p.g} /></div>
+            <div className="g" aria-hidden="true"><ProductImage p={p} sizes="60px" /></div>
             <div>
               <div className="nm"><Link href={`/producto/${k}`}>{p.n}</Link></div>
               <div className="fine mono">{clp(p.p)} c/u</div>
@@ -27,7 +27,7 @@ export function CartLines({ editable }: { editable: boolean }) {
                     <div className="step">
                       <button onClick={() => setQty(k, q - 1)} aria-label="Quitar uno">−</button>
                       <output>{q}</output>
-                      <button onClick={() => setQty(k, q + 1)} aria-label="Agregar uno">+</button>
+                      <button onClick={() => setQty(k, q + 1)} aria-label="Agregar uno" disabled={q >= p.stock}>+</button>
                     </div>
                     <button className="rm" onClick={() => setQty(k, 0)}>Quitar</button>
                   </>

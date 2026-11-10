@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
-import { IVA, productoPorId } from "@/data/productos";
+import { IVA, comprable, productoPorId } from "@/data/productos";
 
 const KEY = "reyked-cart";
 
@@ -52,7 +52,8 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
         const next: Cart = {};
         for (const k of Object.keys(o)) {
           const q = Number(o[k]);
-          if (productoPorId[k] && q > 0) next[k] = Math.min(999, q | 0);
+          const p = productoPorId[k];
+          if (p && comprable(p) && q > 0) next[k] = Math.min(999, p.stock, q | 0);
         }
         setCart(next);
       }
@@ -72,14 +73,15 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   }, [cart, loaded]);
 
   const add = useCallback((id: string, n = 1) => {
-    setCart((c) => ({ ...c, [id]: Math.min(999, (c[id] || 0) + n) }));
+    const max = Math.min(999, productoPorId[id]?.stock ?? 0);
+    setCart((c) => ({ ...c, [id]: Math.min(max, (c[id] || 0) + n) }));
   }, []);
 
   const setQty = useCallback((id: string, q: number) => {
     setCart((c) => {
       const next = { ...c };
       if (q <= 0) delete next[id];
-      else next[id] = Math.min(999, q);
+      else next[id] = Math.min(999, productoPorId[id]?.stock ?? 0, q);
       return next;
     });
   }, []);

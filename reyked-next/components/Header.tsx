@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { CATS } from "@/data/productos";
+import { CATS_ACTIVAS } from "@/data/productos";
 import { useCart } from "@/context/CartContext";
 
 type Menu = "shop" | "info" | null;
@@ -89,7 +89,7 @@ export function Header() {
             </button>
             <div className="menu" id="menuShop">
               <Link className="all" href="/tienda">Ver toda la tienda</Link>
-              {CATS.map((c) => (
+              {CATS_ACTIVAS.map((c) => (
                 <Link key={c.k} href={`/tienda/${c.k}`}>{c.n}</Link>
               ))}
             </div>

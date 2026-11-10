@@ -290,3 +290,15 @@ footer .logo b{color:#6fb4f0}
   .stamp{width:76px;height:76px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.squig path{stroke-dashoffset:0}.rv{transform:none}}
+
+/* Adiciones para el catálogo real (fotos de producto, estados de stock, subtipos y paginación) */
+.card .ph img,.pdp .big img{object-fit:contain;padding:12px;background:#fff}
+.pdp .big{position:relative}
+.q-item .g,.line .g{position:relative;overflow:hidden}
+.q-item .g img,.line .g img{object-fit:contain;padding:2px;background:#fff}
+.stock.out{color:var(--bad)}
+.stock.low{color:var(--muted)}
+.chips.sub .chip{font-size:13px;padding:6px 12px;background:transparent;cursor:pointer;font-family:inherit}
+.chips.sub .chip.on{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
+.more{display:flex;justify-content:center;margin-top:22px}
+.step button:disabled{opacity:.4;cursor:not-allowed}
