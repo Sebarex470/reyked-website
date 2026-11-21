@@ -61,3 +61,17 @@ export const estadoProducto = (p: Producto): EstadoProducto =>
 /** Orden "Destacados": primero lo que se puede comprar y tiene foto; luego lo disponible; al final agotados y a consultar. */
 const rango = (p: Producto) => (comprable(p) ? 0 : p.p > 0 ? 2 : 1) * 2 + (p.img ? 0 : 1);
 export const destacados: Producto[] = [...P].sort((a, b) => rango(a) - rango(b) || b.stock - a.stock || a.n.localeCompare(b.n, "es"));
+
+export const productosDestacados = destacados.filter((p) => comprable(p) && p.img).slice(0, 12);
+
+const normalizar = (texto: string) => texto.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+
+export function buscarProductos(productos: Producto[], consulta: string) {
+  const palabras = normalizar(consulta).split(/\s+/).filter(Boolean);
+  if (!palabras.length) return productos;
+
+  return productos.filter((p) => {
+    const texto = normalizar(`${p.n} ${p.s} ${catName(p.c)} ${p.code}`);
+    return palabras.every((palabra) => texto.includes(palabra));
+  });
+}

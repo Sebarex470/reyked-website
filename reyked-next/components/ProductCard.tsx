@@ -14,13 +14,13 @@ export function StockLabel({ p }: { p: Producto }) {
   return <div className="stock">En stock</div>;
 }
 
-export function ProductCard({ p }: { p: Producto }) {
+export function ProductCard({ p, sizes = "(max-width:520px) 45vw, (max-width:980px) 30vw, 260px" }: { p: Producto; sizes?: string }) {
   const { agregar, comprarAhora } = useBuyActions();
   const e = estadoProducto(p);
   return (
     <article className="card">
       <Link className="ph" href={`/producto/${p.id}`} aria-label={`Ver ${p.n}`}>
-        <ProductImage p={p} sizes="(max-width:520px) 45vw, (max-width:980px) 30vw, 260px" />
+        <ProductImage p={p} sizes={sizes} />
         <span className="tag">{catName(p.c)}</span>
       </Link>
       <div className="body">

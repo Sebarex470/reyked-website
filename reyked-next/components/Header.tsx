@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { CATS_ACTIVAS } from "@/data/productos";
+import { CATS_ACTIVAS, buscarProductos, productosDestacados } from "@/data/productos";
 import { useCart } from "@/context/CartContext";
 
 type Menu = "shop" | "info" | null;
@@ -21,8 +21,11 @@ export function Header() {
   const [navOpen, setNavOpen] = useState(false);
   const [menu, setMenu] = useState<Menu>(null);
   const [q, setQ] = useState(params.get("q") ?? "");
+  const [suggestionsOpen, setSuggestionsOpen] = useState(false);
+  const searchInput = useRef<HTMLInputElement>(null);
   const countRef = useRef<HTMLSpanElement>(null);
   const navRef = useRef<HTMLElement>(null);
+  const suggestions = suggestionsOpen ? buscarProductos(productosDestacados, q).slice(0, 5) : [];
 
   const section = pathname.startsWith("/tienda") || pathname.startsWith("/producto") ? "tienda"
     : pathname === "/nosotros" ? "nosotros"
@@ -34,6 +37,7 @@ export function Header() {
   useEffect(() => {
     setNavOpen(false);
     setMenu(null);
+    setSuggestionsOpen(false);
   }, [pathname]);
   useEffect(() => setQ(params.get("q") ?? ""), [params]);
 
@@ -107,13 +111,45 @@ export function Header() {
           </div>
           <Link href="/contacto" {...cur("contacto")}>Contacto</Link>
         </nav>
-        <form className="search" role="search" onSubmit={(e) => { e.preventDefault(); goSearch(q, false); }}>
+        <form className="search" role="search"
+          onSubmit={(e) => {
+            e.preventDefault();
+            setSuggestionsOpen(false);
+            goSearch(q, false);
+          }}
+          onBlur={(e) => {
+            if (!e.currentTarget.contains(e.relatedTarget)) setSuggestionsOpen(false);
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Escape" && suggestionsOpen) {
+              e.preventDefault();
+              searchInput.current?.focus();
+              setSuggestionsOpen(false);
+            }
+          }}>
           <label htmlFor="q" style={{ position: "absolute", left: -9999 }}>Buscar productos</label>
-          <input id="q" type="search" placeholder="Buscar: cono, alcohol gel…" autoComplete="off" value={q}
+          <input id="q" ref={searchInput} type="search" placeholder="Buscar productos…" autoComplete="off" value={q}
+            onFocus={() => setSuggestionsOpen(true)}
+            onClick={() => setSuggestionsOpen(true)}
             onChange={(e) => {
               setQ(e.target.value);
+              setSuggestionsOpen(true);
               if (pathname.startsWith("/tienda")) goSearch(e.target.value, true);
             }} />
+          {suggestions.length > 0 && (
+            <div className="search-suggestions">
+              <p id="search-suggestions-label">Búsquedas sugeridas · Destacados</p>
+              <ul aria-labelledby="search-suggestions-label">
+                {suggestions.map((p) => (
+                  <li key={p.id}>
+                    <Link href={`/tienda?q=${encodeURIComponent(p.code)}`} onClick={() => setSuggestionsOpen(false)}>
+                      {p.n}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </form>
         <div className="hd-actions">
           <Link className="cart-btn" id="cartLink" href="/carrito" aria-label="Ver carrito">

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { CATS_ACTIVAS, P, catName, comprable, destacados, type CategoriaKey } from "@/data/productos";
+import { CATS_ACTIVAS, P, buscarProductos, catName, comprable, destacados, type CategoriaKey } from "@/data/productos";
 import { Crumbs } from "./Crumbs";
 import { ProductCard } from "./ProductCard";
 
@@ -15,7 +15,6 @@ const ORDENES: [Orden, string][] = [
   ["az", "Nombre A–Z"],
 ];
 const POR_PAGINA = 24;
-const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 export function ShopView({ cat }: { cat: CategoriaKey | "all" }) {
   const params = useSearchParams();
@@ -29,10 +28,10 @@ export function ShopView({ cat }: { cat: CategoriaKey | "all" }) {
 
   const enCategoria = P.filter((p) => cat === "all" || p.c === cat);
   const tipos = cat === "all" ? [] : [...new Set(enCategoria.map((p) => p.s))].sort((a, b) => a.localeCompare(b, "es"));
-  const palabras = norm(q).split(/\s+/).filter(Boolean); // todas las palabras deben aparecer, en cualquier orden
-  const base = (sort === "pop" ? destacados : P).filter(
-    (p) => (cat === "all" || p.c === cat) && (!tipo || p.s === tipo) && (!palabras.length || palabras.every((w) => norm(`${p.n} ${p.s} ${catName(p.c)} ${p.code}`).includes(w))),
+  const enFiltro = (sort === "pop" ? destacados : P).filter(
+    (p) => (cat === "all" || p.c === cat) && (!tipo || p.s === tipo),
   );
+  const base = buscarProductos(enFiltro, q);
   const precio = (p: (typeof P)[number]) => (p.p === 0 ? Infinity : p.p);
   const list = sort === "low" ? [...base].sort((a, b) => precio(a) - precio(b))
     : sort === "high" ? [...base].sort((a, b) => (b.p || -1) - (a.p || -1))

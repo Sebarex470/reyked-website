@@ -1,17 +1,16 @@
 import Link from "next/link";
-import { CATS_ACTIVAS, P, comprable, destacados } from "@/data/productos";
+import { CATS_ACTIVAS, P, productosDestacados } from "@/data/productos";
 import { clp } from "@/lib/format";
 import { Glyph } from "@/components/Glyph";
 import { ProductImage } from "@/components/ProductImage";
 import { AddButton } from "@/components/AddButton";
-import { ProductCard } from "@/components/ProductCard";
+import { FeaturedCarousel } from "@/components/FeaturedCarousel";
 import { HeroGrid } from "@/components/HeroGrid";
 import { Human } from "@/components/Human";
 
 export default function Inicio() {
   // "Lo más pedido": productos con foto y stock, empezando por los de mayor stock.
-  const dest = destacados.filter((p) => comprable(p) && p.img);
-  const top = dest.slice(0, 3);
+  const top = productosDestacados.slice(0, 3);
   const ribbon = "Seguridad industrial ◆ Aseo ◆ Seguridad vial ◆ Envíos a todo Chile ◆ Retiro en Concepción ◆ ";
   return (
     <>
@@ -111,17 +110,7 @@ export default function Inicio() {
           </div>
         </section>
 
-        <section className="sec">
-          <div className="sec-h">
-            <h2>Productos destacados</h2>
-            <Link href="/tienda">Ver todos →</Link>
-          </div>
-          <div className="grid">
-            {dest.slice(0, 4).map((p) => (
-              <ProductCard key={p.id} p={p} />
-            ))}
-          </div>
-        </section>
+        {productosDestacados.length > 0 && <FeaturedCarousel productos={productosDestacados} />}
 
         <Human />
       </div>
