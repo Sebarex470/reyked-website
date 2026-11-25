@@ -1,11 +1,17 @@
-import { STORE_HOURS, WHATSAPP_NUMBER } from "@/lib/site";
+import { STORE_HOURS, WHATSAPP_NUMBER, WHATSAPP_URL } from "@/lib/site";
 
 export function TopBar() {
   return (
     <div className="top">
-      <div className="wrap">
-        <span>Concepción · {STORE_HOURS}</span>
-        <span>Tel. 41 260 4612 · WhatsApp {WHATSAPP_NUMBER}</span>
+      <div className="wrap top-inner">
+        <div className="top-hours">
+          <strong>Retiro en Concepción</strong>
+          <span>{STORE_HOURS}</span>
+        </div>
+        <div className="top-links">
+          <a href="tel:+56412604612">Tel. 41 260 4612</a>
+          <a className="top-whatsapp" href={WHATSAPP_URL}>WhatsApp {WHATSAPP_NUMBER}</a>
+        </div>
       </div>
     </div>
   );
