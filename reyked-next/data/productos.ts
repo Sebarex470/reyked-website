@@ -31,7 +31,6 @@ export interface Producto {
 }
 
 export const IVA = 0.19;
-export const WA = "56956474595";
 
 export const CATS: Categoria[] = [
   { k: "aseo", n: "Aseo", g: "bottle" },

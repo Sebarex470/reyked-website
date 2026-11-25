@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Crumbs } from "@/components/Crumbs";
 import { Human } from "@/components/Human";
+import { CONTACT_EMAIL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Cambios y devoluciones",
@@ -16,7 +17,7 @@ export default function Cambios() {
       <p className="sub">Si algo no sale como esperabas, te ayudamos.</p>
       <div className="note"><b>Texto referencial.</b> Reyked debe definir plazos y condiciones antes de publicar.</div>
       <ol className="steps3">
-        <li className="step3"><b>Escríbenos</b><span>Por WhatsApp o a ventas@reyked.cl, con tu número de pedido y fotos del producto.</span></li>
+        <li className="step3"><b>Escríbenos</b><span>Por WhatsApp o a <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>, con tu número de pedido y fotos del producto.</span></li>
         <li className="step3"><b>Revisamos tu caso</b><span>Vemos qué pasó y qué solución corresponde.</span></li>
         <li className="step3"><b>Te damos una solución</b><span>Cambio, reparación o devolución, según las condiciones que defina Reyked.</span></li>
       </ol>

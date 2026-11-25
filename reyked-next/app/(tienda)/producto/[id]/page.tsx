@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { P, catName, estadoProducto, productoPorId } from "@/data/productos";
 import { clp, conIva } from "@/lib/format";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, STORE_ADDRESS, STORE_NAME } from "@/lib/site";
 import { Crumbs } from "@/components/Crumbs";
 import { ProductBuy } from "@/components/ProductBuy";
 import { ProductCard, StockLabel } from "@/components/ProductCard";
@@ -50,7 +50,7 @@ export default async function Producto({ params }: Props) {
             price: conIva(p.p),
             availability: p.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
             url: `${SITE_URL}/producto/${p.id}`,
-            seller: { "@type": "Organization", name: "Comercializadora Reyked" },
+            seller: { "@type": "Organization", name: STORE_NAME },
           },
         }
       : {}),
@@ -82,7 +82,7 @@ export default async function Producto({ params }: Props) {
             <div><dt>Categoría</dt><dd>{catName(p.c)}</dd></div>
             <div><dt>Tipo</dt><dd>{p.s}</dd></div>
             {e !== "cotizar" && <div><dt>Stock</dt><dd>{p.stock > 0 ? `${p.stock} unidades` : "Sin stock por ahora"}</dd></div>}
-            <div><dt>Retiro</dt><dd>Las Heras 2241, local 7, Concepción</dd></div>
+            <div><dt>Retiro</dt><dd>{STORE_ADDRESS}</dd></div>
             <div><dt>Despacho</dt><dd>Todo Chile, por pagar</dd></div>
           </dl>
         </div>

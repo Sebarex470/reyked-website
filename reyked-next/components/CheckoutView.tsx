@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/context/CartContext";
 import { KEY_COMPROBANTE, type Comprobante } from "@/lib/pedido-local";
+import { STORE_ADDRESS } from "@/lib/site";
 import { Crumbs } from "./Crumbs";
 import { CartLines, TotBlock } from "./CartView";
 
@@ -51,7 +52,7 @@ export function CheckoutView() {
       if (!r.ok) throw new Error(data.error || "No se pudo registrar el pedido.");
       const c: Comprobante = {
         id: data.id, items: data.items, sub: data.sub, iva: data.iva, total: data.total,
-        del: envio ? "Envío a todo Chile (por pagar)" : "Retiro en tienda (Las Heras 2241, local 7, Concepción)",
+        del: envio ? "Envío a todo Chile (por pagar)" : `Retiro en tienda (${STORE_ADDRESS})`,
         addr: envio ? addr : "", name, phone, mail, rut,
       };
       try { sessionStorage.setItem(KEY_COMPROBANTE, JSON.stringify(c)); } catch { /* sin almacenamiento */ }
@@ -79,7 +80,7 @@ export function CheckoutView() {
           <div className="pay" role="radiogroup" aria-label="Entrega">
             <label htmlFor="dPick">
               <input type="radio" name="del" id="dPick" checked={!envio} onChange={() => setEnvio(false)} />
-              <span><b>Retiro en tienda</b>Calle Las Heras 2241, local 7, Concepción</span>
+              <span><b>Retiro en tienda</b>{STORE_ADDRESS}</span>
             </label>
             <label htmlFor="dShip">
               <input type="radio" name="del" id="dShip" checked={envio} onChange={() => setEnvio(true)} />

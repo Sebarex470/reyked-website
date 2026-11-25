@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { WA } from "@/data/productos";
+import { WHATSAPP_URL } from "@/lib/site";
 import { clp } from "@/lib/format";
 import { KEY_COMPROBANTE, type Comprobante } from "@/lib/pedido-local";
 import { Crumbs } from "./Crumbs";
@@ -46,7 +46,7 @@ export function DoneView() {
         <div className="tot big" style={{ borderTop: 0, paddingBlock: 12 }}><span>Total con IVA</span><span>{clp(o.total)}</span></div>
       </div>
       <div className="btnrow" style={{ marginTop: 14 }}>
-        <a className="btn signal" target="_blank" rel="noopener" href={`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`}>Enviar pedido por WhatsApp</a>
+        <a className="btn signal" target="_blank" rel="noopener" href={`${WHATSAPP_URL}?text=${encodeURIComponent(msg)}`}>Enviar pedido por WhatsApp</a>
         <Link className="btn" href="/tienda">Seguir comprando</Link>
       </div>
     </div>

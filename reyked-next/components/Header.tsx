@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { CATS_ACTIVAS, buscarProductos, productosDestacados } from "@/data/productos";
 import { useCart } from "@/context/CartContext";
+import { STORE_NAME, STORE_TAGLINE } from "@/lib/site";
 
 type Menu = "shop" | "info" | null;
 const Chevron = () => (
@@ -81,9 +82,9 @@ export function Header() {
   return (
     <header className="main">
       <div className="wrap hd">
-        <Link className="logo" href="/" aria-label="Reyked, inicio">
+        <Link className="logo" href="/" aria-label={`${STORE_NAME}, inicio`}>
           REY<b>KED</b>
-          <small>Comercializadora</small>
+          <small>{STORE_TAGLINE}</small>
         </Link>
         <nav className={"links" + (navOpen ? " open" : "")} id="nav" aria-label="Principal" ref={navRef}>
           <div className={"dd" + (menu === "shop" ? " open" : "")} id="ddShop">

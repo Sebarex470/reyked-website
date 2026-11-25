@@ -45,7 +45,7 @@
 .adm-chk input{width:auto}
 .adm-login{min-height:100vh;display:grid;place-items:center;padding:20px 0}
 .adm-login form{width:min(420px,100%)}
-.adm-login .logo{font-size:34px}
+.adm-login .logo{font-size:34px;grid-area:auto}
 .adm .toast{bottom:24px}
 .adm .chips{align-items:center}
 .adm code{font-family:var(--font-mono);font-size:.9em}

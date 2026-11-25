@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CATS_ACTIVAS } from "@/data/productos";
+import { CONTACT_EMAIL, FACEBOOK_URL, INSTAGRAM_HANDLE, INSTAGRAM_URL, STORE_ADDRESS, STORE_HOURS, STORE_NAME, STORE_TAGLINE, WHATSAPP_NUMBER, WHATSAPP_URL } from "@/lib/site";
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
       <div className="wrap">
         <div className="fg">
           <div>
-            <Link className="logo" href="/" style={{ fontSize: 34 }}>REY<b>KED</b></Link>
+            <Link className="logo" href="/" style={{ fontSize: 34 }}>REY<b>KED</b><small>{STORE_TAGLINE}</small></Link>
             <p style={{ marginTop: 10 }}>Productos de aseo y seguridad industrial en Concepción, con envíos a todo Chile.</p>
           </div>
           <div>
@@ -28,16 +29,16 @@ export function Footer() {
           </div>
           <div>
             <h4>Contacto</h4>
-            <p>Calle Las Heras 2241, local 7, Concepción</p>
-            <p>Lun a vie, 9:00–14:00 y 15:00–19:00</p>
-            <p>WhatsApp +56 9 5647 4595</p>
-            <p>ventas@reyked.cl</p>
-            <a href="https://www.instagram.com/rey.ked/">Instagram @rey.ked</a>
-            <a href="https://www.facebook.com/profile.php?id=100078818228310">Facebook Rey Ked</a>
+            <p>{STORE_ADDRESS}</p>
+            <p>{STORE_HOURS}</p>
+            <a href={WHATSAPP_URL}>WhatsApp {WHATSAPP_NUMBER}</a>
+            <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+            <a href={INSTAGRAM_URL}>Instagram @{INSTAGRAM_HANDLE}</a>
+            <a href={FACEBOOK_URL}>Facebook Rey Ked</a>
           </div>
         </div>
         <div className="copy">
-          <span>© 2026 Comercializadora Reyked</span>
+          <span>© 2026 {STORE_NAME}</span>
           <span>Propuesta de diseño: textos referenciales</span>
         </div>
       </div>

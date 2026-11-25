@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Crumbs } from "@/components/Crumbs";
 import { Human } from "@/components/Human";
+import { STORE_ADDRESS } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Nosotros",
@@ -28,7 +29,7 @@ export default function Nosotros() {
         <ol className="steps3">
           <li className="step3 rv"><b>Cuéntanos qué necesitas</b><span>Dinos si es una bodega, una obra o un local. Te orientamos sin compromiso.</span></li>
           <li className="step3 rv"><b>Elegimos contigo</b><span>Te recomendamos el producto y la cantidad. Si compras por volumen, te cotizamos.</span></li>
-          <li className="step3 rv"><b>Retiras o despachamos</b><span>Retiro en Las Heras 2241, local 7, o envío por pagar a todo Chile.</span></li>
+          <li className="step3 rv"><b>Retiras o despachamos</b><span>Retiro en {STORE_ADDRESS}, o envío por pagar a todo Chile.</span></li>
         </ol>
       </section>
       <Human />

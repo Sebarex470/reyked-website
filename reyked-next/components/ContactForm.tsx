@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { WA, estadoProducto, productoPorId } from "@/data/productos";
+import { estadoProducto, productoPorId } from "@/data/productos";
+import { WHATSAPP_URL } from "@/lib/site";
 
 const mensajeProducto = (n: string, e: ReturnType<typeof estadoProducto>) =>
   e === "agotado" ? `Hola Reyked, ¿cuándo tendrán disponible ${n}? Me interesa comprar ___ unidades.`
@@ -23,7 +24,7 @@ export function ContactForm() {
       return setOut("Completa nombre, un correo válido y tu mensaje.");
     }
     const txt = `Hola Reyked, soy ${n} ${l} (${m}).\n${g}`;
-    setOut(<>Consulta lista. <a target="_blank" rel="noopener" href={`https://wa.me/${WA}?text=${encodeURIComponent(txt)}`}>Enviarla por WhatsApp</a></>);
+    setOut(<>Consulta lista. <a target="_blank" rel="noopener" href={`${WHATSAPP_URL}?text=${encodeURIComponent(txt)}`}>Enviarla por WhatsApp</a></>);
   }
 
   return (
